@@ -38,6 +38,7 @@ specific language governing permissions and limitations under the License.
                   <li><a href="https://twitter.com/rapecrisis" title="Twitter">Twitter</a></li>
                   <li><a href="http://mxitapp.com/rapecrisis/signup" title="Mxit">Mxit</a></li>
               </ul>
+              <br />
             <?php
           }
         ?>
