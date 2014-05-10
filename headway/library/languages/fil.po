@@ -1,0 +1,1469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Headway 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-29 18:12-0600\n"
+"PO-Revision-Date: 2013-01-03 09:48+0100\n"
+"Last-Translator: Mikael <mikael@husplushave.dk>\n"
+"Language-Team: Husplushave.dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: Filippino\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/headway/dev/wp-content/"
+"themes/Headway-20\n"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:5
+msgid ""
+"This post is password protected.  Please enter the password to view the "
+"comments."
+msgstr ""
+"Ang post na ito ay protektado ng password. Mangyaring ipasok ang password "
+"upang tingnan ang mga komento."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:12
+msgid "to"
+msgstr "sa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:26
+msgid "There are no comments yet.  Be the first and leave a response!"
+msgstr "Walang mga komento. Maging una at iwan ng tugon!"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:31
+msgid "Sorry, comments are closed for this post."
+msgstr "Paumanhin, ang mga komento ay sarado na para sa post na ito."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:54
+msgid "You must be logged in to post a comment."
+msgstr "Kailangang naka-log in upang mag-post ng komento."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:54
+msgid "Click here to log in."
+msgstr "Mag-click dito upang mag-log in."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:62
+#, php-format
+msgid "You are currently logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Ikaw ay kasalukuyang naka-log in bilang<a href=\"%1$s\">%2$s</a>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:64
+msgid "Log out."
+msgstr "Mag-log out."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:64
+msgid "Are you sure you want to logout?"
+msgstr "Sigurado ka bang gusto mong mag-logout?"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:64
+msgid "Logout?"
+msgstr "Logout?"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:69
+msgid "Name"
+msgstr "Pangalan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:69
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:74
+msgid "(required)"
+msgstr "(Kinakailangan)"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:74
+msgid "E-Mail Address"
+msgstr "E-Mail Address"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:79
+msgid "Website"
+msgstr "Website"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:91
+msgid "Comment"
+msgstr "Puna"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:93
+msgid ""
+"Wanting to leave an <em><a href=\"#\" id=\"show-tags\" onclick=\"document."
+"getElementById('tags').style.display = 'block';return false;\">&lt;em&gt;"
+"phasis</a></em> on your comment?"
+msgstr ""
+"Kinakapos na mag-iwan ng isang <em><a href=\"#\" id=\"show-tags\" onclick="
+"\"document.getElementById('tags').style.display = 'block';return false;"
+"\">&lt;em&gt;phasis</a></em> sa iyong komento?"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:97
+msgid ""
+"HTML is allowed in the comment box above.  You can use the following tags: "
+"<code>&lt;b&gt;&lt;/b&gt;</code>, <code>&lt;strong&gt;&lt;/strong&gt;</"
+"code>, <code>&lt;i&gt;&lt;/i&gt;</code>, <code>&lt;em&gt;&lt;/em&gt;</code>, "
+"<code>&lt;address&gt;&lt;/address&gt;</code>, <code>&lt;abbr&gt;&lt;/abbr&gt;"
+"</code>, <code>&lt;acronym&gt;&lt;/acronym&gt;</code>, <code>&lt;a "
+"href=&quot;&quot;&gt;&lt;/a&gt;</code>."
+msgstr ""
+"HTML ay pinapayagan sa kahon ng komento sa itaas. Maaari mong gamitin ang "
+"sumusunod na tag <code>&lt;b&gt;&lt;/b&gt;</code>, <code>&lt;strong&gt;&lt;/"
+"strong&gt;</code>, <code>&lt;i&gt;&lt;/i&gt;</code>, <code>&lt;em&gt;&lt;/"
+"em&gt;</code>, <code>&lt;address&gt;&lt;/address&gt;</code>, <code>&lt;"
+"abbr&gt;&lt;/abbr&gt;</code>, <code>&lt;acronym&gt;&lt;/acronym&gt;</code>, "
+"<code>&lt;a href=&quot;&quot;&gt;&lt;/a&gt;</code>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:101
+msgid "Submit Comment"
+msgstr "Isumite ang Komento"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/comments.php:113
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-elements.php:877
+msgid "Font/Typeface"
+msgstr "Font/Typeface"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-functions.php:264
+msgid "Administration Panel"
+msgstr "Administration Panel"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-functions.php:266
+msgid "Administration Login"
+msgstr "Pangangasiwa ng Pag-login"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-functions.php:305
+msgid "Powered By"
+msgstr "Pinatatakbo Sa pamamagitan ng"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-functions.php:317
+msgid "Copyright"
+msgstr "Karapatang magpalathala"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-functions.php:331
+msgid "Go To Top"
+msgstr "Pumunta Upang Top"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:117
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:119
+msgid "Subscribe via RSS"
+msgstr "Mag-subscribe sa pamamagitan ng RSS"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:201
+msgid "You Are Here:"
+msgstr "Sigurado ka Narito"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:201
+msgid "Home"
+msgstr "Tahanan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:241
+msgid "Search Results For:"
+msgstr "Mga Resulta sa Paghahanap Para sa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:248
+msgid "Author Archives:"
+msgstr "May-akda Archive"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:250
+msgid "404 Error!"
+msgstr "404 Error!"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:251
+msgid "Tag Archives:"
+msgstr "Tag Archives"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:252
+msgid "Archives:"
+msgstr "Arkibos"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-layout.php:350
+msgid "Type here to search..."
+msgstr "Type dito sa paghahanap ..."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/core/core-posts.php:38
+msgid "Edit post"
+msgstr "I-edit ang post"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:479
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous Post"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Nakaraang Post"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:483
+msgid "Next Post <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Susunod na Post  <span class=\"meta-nav\">&raquo;</span>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:499
+#, php-format
+msgid ""
+"<h2 class=\"page-title archives-title\">Category Archives: %s</span></h2>"
+msgstr ""
+"<h2 class=\"page-title archives-title\"> Kategorya Archive %s</span></h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:506
+#, php-format
+msgid "<h2 class=\"page-title archives-title\">Daily Archives: %s</h2>"
+msgstr "<h2 class=\"page-title archives-title\"> Araw-araw  na Archive %s</h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:508
+#, php-format
+msgid "<h2 class=\"page-title archives-title\">Monthly Archives: %s</h2>"
+msgstr "<h2 class=\"page-title archives-title\"> Buwanang Archive  %s</h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:510
+#, php-format
+msgid "<h2 class=\"page-title archives-title\">Yearly Archives: %s</h2>"
+msgstr "<h2 class=\"page-title archives-title\"> Taunan Archive %s</h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:515
+#, php-format
+msgid "<h2 class=\"page-title archives-title\">Tag Archive: %s</h2>"
+msgstr "<h2 class=\"page-title archives-title\"> Tag-archive %s</h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:525
+#, php-format
+msgid "<h2 class=\"page-title author archives-title\">Author Archives: %s</h2>"
+msgstr ""
+"<h2 class=\"page-title author archives-title\"> May-akda Archive %s</h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/content.php:530
+#, php-format
+msgid ""
+"<h2 class=\"page-title archives-title\">Search Results for: <span id="
+"\"search-terms\">%s</span></h2>"
+msgstr ""
+"<h2 class=\"page-title archives-title\"> Mga Resulta ng Paghahanap para sa "
+"<span id=\"search-terms\">%s</span></h2>"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/featured.php:6
+msgid "Continue Reading &raquo;"
+msgstr "Magpatuloy Pagbabasa &raquo;"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/leafs/feed.php:191
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink sa% s"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/visual-editor.php:88
+msgid "Enter Visual Editor"
+msgstr "Permalink sa% s"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/visual-editor.php:89
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:43
+msgid "WordPress Admin"
+msgstr "WordPress Admin"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:17
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:32
+msgid "Mass Font Change"
+msgstr "Mass Font Baguhin ang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:20
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:726
+msgid "Titles"
+msgstr "Pamagat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:46
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:752
+msgid "Header title, post/page titles, widget headings, post meta"
+msgstr ""
+"Header pamagat, mga pamagat ng post / pahina, widget heading, post meta"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:50
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:756
+msgid "Content"
+msgstr "Nilalaman"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:76
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:782
+msgid "Post/page content, hyperlinks, tagline"
+msgstr "Post / pahina ng nilalaman, mga hyperlink, tagline"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:102
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:20
+msgid "Linking Options"
+msgstr "Pag-uugnay ang Opsyon"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:104
+msgid "Select which page you would like to copy the leafs from."
+msgstr "Piliin kung aling pahina ang nais mong kopyahin ang mga leafs mula."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:109
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:394
+msgid "Pages"
+msgstr "Mga pahina"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:114
+msgid "&mdash; Do Not Link &mdash;"
+msgstr "&mdash; Huwag-link  &mdash;"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:122
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:397
+msgid "System Pages"
+msgstr "System Mga Pahina"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:160
+msgid "Live CSS"
+msgstr "Live CSS"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:162
+msgid ""
+"To use Live CSS, start typing your CSS below. Most changes will appear "
+"immediately. Be sure to click the Save button to keep your changes. Reload "
+"the Visual Editor to see any other changes. Live CSS settings will "
+"automatically transfer when you upgrade your version of Headway."
+msgstr ""
+"Upang gamitin ang Live CSS magsimulang mag-type sa ibaba ang iyong CSS. "
+"Karamihan sa mga pagbabago ay agad na lilitaw. Tiyaking i-click ang "
+"pindutang I-save upang mapanatili ang iyong mga pagbabago. I-reload ang "
+"Visual Editor upang makita ang anumang iba pang mga pagbabago. Live CSS "
+"setting ay awtomatikong ilipat kapag mong i-upgrade ang iyong bersyon ng "
+"usad."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:179
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:30
+msgid "Export"
+msgstr "Luwas"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:181
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:246
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:24
+msgid "Styles"
+msgstr "Styles"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:184
+msgid ""
+"Choose the style you would like to export with the select box below and "
+"click Export Style!"
+msgstr ""
+"Piliin ang estilo na nais mong i-export gamit ang piliin ang kahon sa ibaba "
+"at i-click ang I-export Estilo!"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:202
+msgid "Export Style"
+msgstr "I-export Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:206
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:254
+msgid "Leaf Templates"
+msgstr "Leaf Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:209
+msgid ""
+"Choose a template using the select box below and click <em>Export Leaf "
+"Template</em> to export the template you select."
+msgstr ""
+"Pumili ng isang template na gamit ang piliin ang kahon sa ibaba at i-click "
+"&lt;em&gt; Leaf Template I-export &lt;/ em&gt; upang i-export ang template "
+"na pinili mo."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:227
+msgid "Export Leaf Template"
+msgstr "I-export ang Leaf Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:232
+msgid ""
+"If you are looking to export site/header configurations, SEO settings, or "
+"Headway configuration settings, go to the Headway Configuration panel in the "
+"WordPress admin."
+msgstr ""
+"Kung ikaw ay naghahanap upang i-export ang mga site / header configuration "
+"ng, mga setting ng SEO, o mga setting ng configuration ng pag-usad, pumunta "
+"sa panel ng usad Configuration sa admin ng WordPress."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:244
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:29
+msgid "Import"
+msgstr "Angkat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:249
+msgid ""
+"Browse to the style you wish to import on your computer. Once the style has "
+"been uploaded, it will appear in the style selector.  Find the style and "
+"click Load Style to view it."
+msgstr ""
+"-Browse sa style na nais mong i-import sa iyong computer. Sa sandaling ang "
+"estilo ay na-upload, lilitaw ito sa tagapili ng estilo. Hanapin ang mga "
+"estilo at i-click ang I-load ang Estilo upang tingnan ito."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:257
+msgid ""
+"Browse to the leaf template you wish to import on your computer.  The "
+"template will automatically show up in the leaf templates dropdown under "
+"Leafs &amp; Columns &raquo; Templates."
+msgstr ""
+"Browse upang ang dahon ng template na nais mong i-import sa iyong computer. "
+"Template ay awtomatikong ipakita sa mga template dahon na dropdown sa ilalim "
+"ng Leafs amp; Haligi RAQUO; Template."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:263
+msgid ""
+"If you are looking to import site/header configurations, SEO settings, or "
+"Headway configuration settings, go to the Headway Configuration panel in the "
+"WordPress admin."
+msgstr ""
+"Kung naghahanap ka upang i-import ang mga site / header configuration ng, "
+"mga setting ng SEO, o mga setting ng configuration ng pag-usad, pumunta sa "
+"panel ng usad Configuration sa admin ng WordPress."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:276
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:282
+msgid "Save Style"
+msgstr "I-save ang Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:278
+msgid ""
+"Enter the name you would like to name the style you are saving, then click "
+"Save Style."
+msgstr ""
+"Ipasok ang pangalan na nais mong pangalanan ang estilo ikaw ay sine-save, at "
+"pagkatapos ay i-click ang I-save ang Estilo."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:280
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:317
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:319
+msgid "Style Name"
+msgstr "Estilo Pangalan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:293
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:301
+msgid "Save Template"
+msgstr "I-save ang Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:295
+msgid ""
+"Enter the name you would like to name the template you are saving, then "
+"click Save Template."
+msgstr ""
+"Ipasok ang pangalan na nais mong pangalanan ang template na ikaw ay sine-"
+"save, at pagkatapos ay i-click ang I-save ang Template."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:297
+msgid ""
+"<strong>Note:</strong> If you have made changes to the layout and haven't "
+"saved the changes in the visual editor, you must do so before saving the "
+"leafs as a template."
+msgstr ""
+"&lt;strong&gt; Tandaan &lt;/ strong&gt; Kung nagsagawa ka ng mga pagbabago "
+"sa layout at haven 't nai-save na ang mga pagbabago sa visual editor, dapat "
+"mong gawin ito bago i-save ang mga leafs bilang isang template."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:299
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:347
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:349
+msgid "Template Name"
+msgstr "Pangalan ng Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:312
+msgid "Edit Style"
+msgstr "I-edit ang Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:329
+msgid "Save Style Settings"
+msgstr "I-save ang mga Setting ng Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:330
+msgid "Delete Style"
+msgstr "Tanggalin Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:342
+msgid "Edit Template"
+msgstr "Baguhin ang Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:355
+msgid "Delete Template"
+msgstr "Burahin ang Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:362
+msgid "Save Template Settings"
+msgstr "I-save ang mga Setting ng Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:363
+msgid "Set Template As Default"
+msgstr "Itakda ang Template Bilang Default"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:364
+msgid "Remove Template As Default"
+msgstr "Alisin ang Template Bilang Default"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:403
+msgid "Blog Index"
+msgstr "Blog Index"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:404
+msgid "Single Post"
+msgstr "Single Post"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:405
+msgid "Category Archives"
+msgstr "Kategorya Archive"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:406
+msgid "Archives"
+msgstr "Arkibos"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:409
+msgid "Tag Archives"
+msgstr "Tag Archives"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:411
+msgid "Author Archives"
+msgstr "May-akda Archive"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:412
+msgid "Search Results"
+msgstr "Mga Resulta sa Paghahanap"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:413
+msgid "404 Page"
+msgstr "404 Page"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:420
+msgid "Post Type &ndash; "
+msgstr "Mag-post ng Uri &ndash; "
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:431
+msgid "Switch To Layout"
+msgstr "Lumipat Upang Layout"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:452
+msgid "Save &amp; Link"
+msgstr "I-save &amp; Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:455
+msgid "Link to Pages:"
+msgstr "Link sa Mga Pahina"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:463
+msgid "Link to System Pages:"
+msgstr "Link sa Mga Pahina System"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:477
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:21
+msgid "Save and Link"
+msgstr "I-save at link ang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:508
+msgid "Skin Preview"
+msgstr "Balat Preview"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:542
+msgid ""
+"If the visual editor takes longer than 20 seconds to load, please contact "
+"Headway Support at <a href=\"mailto:support@headwaythemes.com"
+"\">support@headwaythemes.com</a> or visit the Headway forums.<br /><br />We "
+"make every effort to respond to all support requests within 24 hours, Monday-"
+"Friday US Central Time."
+msgstr ""
+"Kung ang visual na editor ay tumatagal ng mas mahaba kaysa sa 20 segundo "
+"upang i-load, mangyaring makipag-ugnay sa usad Suporta sa <a href=\"mailto:"
+"support@headwaythemes.com\">support@headwaythemes.com</a>o bisitahin ang mga "
+"forum ng usad. &lt;br /&gt; &lt;br /&gt; namin ang bawat pagsusumikap upang "
+"tumugon sa lahat ng mga kahilingan ng suporta sa loob ng 24 na oras, Lunes-"
+"Biyernes US Central Time."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:574
+msgid "Quick Start Wizard"
+msgstr "Mabilis na Pagsisimula Wizard"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:586
+msgid "Select a Layout"
+msgstr "Pumili ng Layout"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:587
+msgid ""
+"Using the icons below, choose the layout you would like your site to "
+"resemble.  This will set <strong>every page</strong> on your website to the "
+"layout you select below."
+msgstr ""
+"Gamit ang mga icon sa ibaba, piliin ang layout na nais mong sa makahawig ang "
+"iyong site. Na ito ay magse-set &lt;strong&gt; bawat pahina &lt;/ strong&gt; "
+"sa iyong website sa layout na pinili mo sa ibaba."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:592
+msgid ""
+"<strong>Warning!</strong> This will replace EVERY page layout on your site.  "
+"If you wish to preserve one or some of your leaf templates, save them using "
+"the Leaf Templates saving functionality.  Otherwise, click the checkbox "
+"below to not change any layouts."
+msgstr ""
+"&lt;strong&gt; Babala! &lt;/ strong&gt; Papalitan nito ang BAWAT layout ng "
+"pahina sa iyong site. Kung nais mong panatilihin ang isa o ilang ng iyong "
+"mga template ng dahon, i-save ang mga ito gamit ang Template ng Leaf pagse-"
+"save ng pag-andar. Kung hindi man,i-click ang checkbox sa ibaba upang hindi "
+"baguhin ang anumang mga layout."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:595
+msgid "Skip this step (do not change any Page Layouts)"
+msgstr ""
+"Laktawan ang hakbang na ito (huwag baguhin ang anumang mga Layout ng Pahina)"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:606
+msgid "Use Columns System"
+msgstr "Gamitin ang Haligi System"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:611
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:633
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:713
+msgid "Skip Wizard"
+msgstr "Laktawan ang Wizard"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:618
+msgid "Upload Header Image"
+msgstr "Mag-upload ng Header ng Larawan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:620
+msgid ""
+"If you have a banner, logo, or any other image that you would like to use, "
+"upload it using the button below.  Otherwise, go to the next step."
+msgstr ""
+"Kung mayroon kang isang banner, logo, o anumang iba pang mga imahe na nais "
+"mong gamitin, i-upload ito gamit ang pindutan sa ibaba. Kung hindi man, "
+"pumunta sa susunod na hakbang."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:622
+msgid ""
+"After you upload your image, we will also analyze it for the next step in "
+"this wizard to build a matching color scheme."
+msgstr ""
+"Pagkatapos mong i-upload ang iyong larawan, kami ay din pag-aralan ito para "
+"sa susunod na hakbang sa wizard na ito upang bumuo ng isang pagtutugma "
+"scheme ng kulay."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:625
+msgid "Recommended Size:"
+msgstr "Inirerekomendang Laki"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:630
+msgid "Image Uploaded!"
+msgstr "Ng Imahe-upload!"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:630
+msgid "Go to the next step to continue customization."
+msgstr "Pumunta sa susunod na hakbang upang ipagpatuloy ang pag-customize."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:636
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:716
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:785
+msgid "Previous Step"
+msgstr "Nakaraang Hakbang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:637
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:717
+msgid "Next Step"
+msgstr "Kasunod na Hakbang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:641
+msgid "Color Scheme"
+msgstr "Kulay Scheme"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:661
+msgid ""
+"To set up the color scheme of your website, drag the following colors onto "
+"the spots below <span style=\"font-weight: bold;color: #aa0000;\">(primary, "
+"secondary, and tertiary are required!)</span>.  Or, manually select the "
+"color by clicking on the color box.  <span id=\"colors-from-header-image\" "
+"style=\"display: none; font-weight: bold;\">The colors below were "
+"automatically generated from the header image you uploaded in the previous "
+"step.</span><span id=\"colors-from-headway\">The colors below are a few "
+"colors you can use to build a color scheme quickly."
+msgstr ""
+"I-set up ang scheme ng kulay ng iyong website, i-drag ang mga sumusunod na "
+"kulay papunta sa spot sa ibaba <span style=\"font-weight: bold;color: "
+"#aa0000;\"> (Pangunahing, pangalawang, at tersiyaryo ay kinakailangan!) "
+"&lt;/ Span&gt;. O, mano-manong piliin ang kulay sa pamamagitan ng pag-click "
+"sa kahon ng kulay <span id=\"colors-from-header-image\" style=\"display: "
+"none; font-weight: bold;\"> Ang mga kulay sa ibaba ay awtomatikong binuo "
+"mula sa header ng imahe na iyong na-upload sa nakaraang hakbang. .</"
+"span><span id=\"colors-from-headway\"> Ang mga kulay sa ibaba ang ilang mga "
+"kulay na maaari mong gamitin upang mabilis na bumuo ng scheme ng kulay."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:665
+msgid "Colors"
+msgstr "Kulay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:683
+msgid "Selected Colors"
+msgstr "Mga Napiling Kulay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:687
+msgid "Primary Color"
+msgstr "Pangunahing Kulay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:688
+msgid "Header title, post/page titles, hyperlinks"
+msgstr "Header pamagat, mga pamagat ng post / pahina, mga hyperlink"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:693
+msgid "Secondary Color"
+msgstr "Pangalawang Kulay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:694
+msgid "Navigation, heading 1 and 2's in content"
+msgstr "Nabigasyon, heading 1 at 2 's sa nilalaman"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:699
+msgid "Tertiary (Third) Color"
+msgstr "Tersiyaryo (Third) Kulay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:700
+msgid "Tagline, leaf titles, widget titles"
+msgstr "Tagline, dahon pamagat, pamagat ng widget"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:705
+msgid "Background Color"
+msgstr "Kulay ng Background"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:721
+msgid "Fonts"
+msgstr "Font"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:723
+msgid "Choose which fonts you would like for the following."
+msgstr "Piliin kung aling mga font nais mong para sa mga sumusunod."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/boxes.php:786
+msgid "Build Site &amp; Finish"
+msgstr "Bumuo Site  &amp;Tapos na"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:11
+msgid "Reload Visual Editor"
+msgstr "I-reload Visual Editor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:12
+msgid "Close Visual Editor"
+msgstr "Isara Visual Editor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:17
+msgid "Linking"
+msgstr "Pag-uugnay"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:26
+msgid "Tools"
+msgstr "Tools"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:33
+msgid "Run Wizard"
+msgstr "Patakbuhin ang Wizard"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:34
+msgid "Live CSS Editor"
+msgstr "Live CSS Editor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:47
+msgid "Headway Configuration"
+msgstr "Usad Configuration"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:51
+msgid "Headway Tools"
+msgstr "Usad Tools"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:55
+msgid "Headway Easy Hooks"
+msgstr "Usad Madaling Hooks"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:60
+msgid "Network Sites"
+msgstr "Network Site"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:65
+msgid "Widgets"
+msgstr "Widgets"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:70
+msgid "Edit This Post"
+msgstr "I-edit ang Post"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:70
+msgid "Edit This Page"
+msgstr "I-edit ang Pahinang Ito"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:84
+msgid "Editing:"
+msgstr "Pag-edit"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:87
+msgid "Linked To:"
+msgstr "Naka-link Upang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:97
+msgid "Styles and Design"
+msgstr "Estilo at Disenyo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:99
+msgid "Skins"
+msgstr "Skin"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:101
+msgid "Leafs and Columns"
+msgstr "Leafs at Haligi"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:103
+msgid "Header"
+msgstr "Ulo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:105
+msgid "Navigation"
+msgstr "Nabigasyon"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:107
+msgid "Footer"
+msgstr "Pampaa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/main.php:109
+msgid "Site Dimensions"
+msgstr "Site Sukat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:23
+msgid "Design Editor"
+msgstr "Design Editor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:26
+msgid "Background"
+msgstr "Likuran"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:33
+msgid "Inspector"
+msgstr "Inspektor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:35
+msgid ""
+"Simply hover an element to get more information about it.  Click it to style "
+"it."
+msgstr ""
+"Nang simple hover ang isang elemento upang makakuha ng karagdagang "
+"impormasyon tungkol dito. I-click ang mga ito sa estilo ito."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:41
+msgid "Element Selector"
+msgstr "Element Tagapili"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:43
+msgid "Select an element below that you would like to style."
+msgstr "Pumili ng isang elemento sa ibaba na nais mong i-style."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:45
+msgid "Tip:"
+msgstr "Tip:"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:45
+msgid ""
+"Use the inspector above and click on any element you would like to style and "
+"the settings will show up."
+msgstr ""
+"Gamitin ang inspector sa itaas at mag-click sa anumang elemento na nais mong "
+"i-style at ang mga setting ay ipapakita."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:51
+msgid "Call This Element Out"
+msgstr "Tumawag ito Element Out"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:56
+msgid "Colors:"
+msgstr "Kulay:"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:65
+msgid "Fonts:"
+msgstr "Fonts:"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:84
+msgid ""
+"To view a style, click on the style to select it then click <strong>Load "
+"Style</strong>.  If you are satisfied with how a style looks, you must save "
+"the visual editor using the \"Save All Changes\" button in the bottom-right."
+msgstr ""
+"Upang tingnan ang isang estilo, mag-click sa estilo upang piliin ito "
+"pagkatapos ay i-click <strong>load Estilo </ strong>;. Kung ikaw ay "
+"nasiyahan sa kung paano hitsura ang isang estilo, kailangan mong i-save ang "
+"visual na editor gamit ang  \"I-save ang Lahat ng mga Pagbabago\"  na button "
+"sa ibabang-kanan."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:104
+msgid "Load Style"
+msgstr "Ng pag-load ng Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:106
+msgid ""
+"You do not have any styles.  Use the import functionality (under Tools) to "
+"import a style or use the Save Current Style button below to save your "
+"current design preferences."
+msgstr ""
+"Hindi ka magkakaroon ng anumang mga estilo. Gamitin ang pag-andar ng pag-"
+"import (sa ilalim ng Tools) upang i-import ang isang estilo o gamitin ang I-"
+"save Kasalukuyang Estilo pindutan sa ibaba upang i-save ang iyong mga "
+"kagustuhan sa kasalukuyang disenyo."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:108
+msgid "Save Current Style"
+msgstr "I-save ang Kasalukuyang Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:110
+msgid ""
+"For more styles, use the import feature under <strong>Tools &raquo; Import</"
+"strong>."
+msgstr ""
+"Para sa higit pang mga estilo, gamitin ang tampok ng pag-import sa ilalim "
+"<strong>; Tools &raquo; -import ng < strong>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:115
+msgid "Body Background Image"
+msgstr "Katawan Larawan sa Background"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:129
+msgid "OR Link Directly To Background Image"
+msgstr "O-link Direktang Upang Larawa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:134
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:631
+msgid "Delete"
+msgstr "Alisin"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:140
+msgid "Background Tiling"
+msgstr "Background pag-atip na kapsa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:142
+msgid "Tile"
+msgstr "Tile"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:143
+msgid "Tile Horizontally"
+msgstr "Tile Pahalang"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:144
+msgid "Tile Vertically"
+msgstr "Tile Patayo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:145
+msgid "No Tiling"
+msgstr "Walang pag-atip na kapsa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:147
+msgid "Choose how you would like the body background image to be tiled."
+msgstr ""
+"Piliin kung paano mo gustong ang larawan sa background ng katawan na naka-"
+"tile."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:165
+msgid "No Skin"
+msgstr "Walang Balat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:173
+msgid "No Skin (Default)"
+msgstr "Walang Balat (Default)"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:173
+msgid "Use Design Editor"
+msgstr "Gamitin ang Design Editor"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:181
+msgid "Preview Skin"
+msgstr "Preview Balat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:182
+msgid "Activate Skin"
+msgstr "Isaaktibo ang Balat"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:184
+msgid ""
+"To finish activating the skin you have selected, save your changes by "
+"clicking the \"Save All Changes\" button the bottom right then reload the "
+"visual editor."
+msgstr ""
+"Upang tapusin ang pag-activate sa balat na iyong pinili, i-save ang iyong "
+"mga pagbabago sa pamamagitan ng pag-click sa  \"I-save ang Lahat ng mga "
+"Pagbabago  \" na button sa ibaba pagkatapos ay i-reload ang visual na editor."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:186
+msgid ""
+"For more skins, go to the <a class=\"\" target=\"_blank\" href=\"http://"
+"headwaythemes.com/marketplace\">Headway Marketplace</a>."
+msgstr ""
+"Para sa higit pang mga skin, pumunta sa  <a class=\"\" target=\"_blank\" "
+"href=\"http://headwaythemes.com/marketplace\">Headway Marketplace</a>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:197
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:604
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:795
+msgid "Actions"
+msgstr "Pagkilos"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:199
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:226
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:228
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:251
+msgid "Add"
+msgstr "Magdagdag"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:200
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:275
+msgid "Columns"
+msgstr "Haligi"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:201
+msgid "Templates"
+msgstr "Templates"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:208
+msgid ""
+"If you wish to customize the layout for this page, go to the linking options "
+"in the top menu and disable linking (set both select boxes to the <em>Do Not "
+"Link</em> option then save). To finish the process, save and reload the "
+"visual editor."
+msgstr ""
+"Kung nais mo upang i-customize ang layout para sa pahinang ito, pumunta sa "
+"pag-link ng mga pagpipilian sa tuktok na menu at hindi mapagana ang pag-link "
+"(itakda ang parehong piliin ang mga kahon sa <em>; Hindi link ang </em>; "
+"pagpipilian pagkatapos ay i-save). Upang tapusin ang proseso, i-save at i-"
+"reload ang visual na editor."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:215
+msgid "Arrange Leafs"
+msgstr "Ayusin Leafs"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:216
+msgid "Resize Leafs"
+msgstr "Baguhin ang laki ng Leafs"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:218
+msgid "Arrange &amp; Resize Columns"
+msgstr "Ayusin &amp; Baguhin ang laki ng Haligi"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:264
+msgid ""
+"For more leafs, go to the <a class=\"\" target=\"_blank\" href=\"http://"
+"headwaythemes.com/marketplace\">Headway Marketplace</a>."
+msgstr ""
+"Para sa higit pang mga leafs, pumunta sa <a class=\"\" target=\"_blank\" "
+"href=\"http://headwaythemes.com/marketplace\">Headway Marketplace</a>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:270
+msgid "Changing these settings will change the setup for this page only."
+msgstr ""
+"Pagbabago ng mga setting na ito ay baguhin ang setup para sa pahinang ito "
+"lamang."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:270
+msgid "NOTE:"
+msgstr "TANDAAN"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:270
+msgid ""
+"Modifying these settings may change your layout drastically.  If so, "
+"rearrange your site using the new columns."
+msgstr ""
+"Pagbabago ng mga setting na ito ay maaaring baguhin ang iyong layout "
+"lubhang. Kung gayon, muling ayusin ang iyong site gamit ang bagong mga "
+"haligi."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:272
+msgid ""
+"In order to use the new columns and containers, you must <strong>click save "
+"in the bottom-right</strong> and <strong>reload the visual editor</strong>."
+msgstr ""
+"Upang gamitin ang bagong mga hanay at lalagyan, dapat mo <strong>; i-click "
+"ang i-save sa ibabang-kanan </ strong>; at <strong> i-reload ang visual na "
+"editor </ strong>."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:281
+msgid "Leaf Columns"
+msgstr "Leaf Haligi"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:304
+msgid "Disable Equal Column Heights"
+msgstr "Huwag paganahin ang pantay Haligi Heights"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:314
+msgid "Column Widths"
+msgstr "Haligi lapad"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:372
+msgid "Extra Leaf Containers"
+msgstr "Extra Leaf Lalagyan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:381
+msgid "Show Top Leafs Container"
+msgstr "Ipakita ang mga Nangungunang Lalagyan Leafs"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:386
+msgid "Show Bottom Leafs Container"
+msgstr "Ipakita ang Ibaba Leafs Container"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:406
+msgid ""
+"To load a leaf template, click on the style to select it then click "
+"<strong>Load Template</strong>.  Clicking Load Template will automatically "
+"save all changes and reload the visual editor."
+msgstr ""
+"Upang i-load ang isang template ng dahon, mag-click sa estilo upang piliin "
+"ito pagkatapos ay i-click <strong>Load Template</strong>. Ang pag-click-load "
+"ng Template ay awtomatikong i-save ang lahat ng mga pagbabago at i-reload "
+"ang visual na editor."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:422
+msgid "Load Template"
+msgstr "Ng pag-load ng Template"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:424
+msgid ""
+"You do not have any leaf templates.  Use the import functionality (under "
+"Tools) to import a leaf template or use the Save Current Leafs button below "
+"to save the leafs on this page as a template."
+msgstr ""
+"Hindi ka anumang mga template ng dahon. Gamitin ang pag-andar ng pag-import "
+"(sa ilalim ng Tools) upang i-import ang isang template ng dahon o gamitin "
+"ang I-save ang mga Kasalukuyang Leafs pindutan sa ibaba upang i-save ang mga "
+"leafs sa pahinang ito bilang isang tem"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:426
+msgid "Save Current Page Layout"
+msgstr "I-save ang Kasalukuyang Page Layout"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:443
+msgid "Wrapper"
+msgstr "Balot"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:447
+msgid "Leafs"
+msgstr "Leafs"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:456
+msgid "Wrapper Width"
+msgstr "Wrapper Lapad"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:472
+msgid "Wrapper Vertical Margin"
+msgstr "Wrapper Vertical margin"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:487
+msgid "Wrapper Rounded Corners Radius"
+msgstr "Wrapper Rounded Corners Radius"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:504
+msgid ""
+"<strong>Hint:</strong> Enable Leaf resizing to see the padding and margins "
+"displayed visually."
+msgstr ""
+"<strong> Pahiwatig </strong> Paganahin ang pagbabago ng laki ng Leaf upang "
+"makita ang mga padding at margin ipinapakita biswal."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:510
+msgid "Leaf Margins"
+msgstr "Leaf Mga margin"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:525
+msgid "Leaf Padding"
+msgstr "Leaf Padding"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:540
+msgid "Leaf Container Horizontal Padding"
+msgstr "Leaf Lalagyan Pahalang Padding"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:555
+msgid "Leaf Container Vertical Padding"
+msgstr "Leaf Lalagyan Vertical Padding"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:570
+msgid "Leafs Rounded Corners Radius"
+msgstr "Leafs Rounded Corners Radius"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:600
+msgid "Header Image"
+msgstr "Header ng Larawan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:602
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:796
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:800
+msgid "Options"
+msgstr "Mga Pagpipilian sa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:614
+msgid "Recommended Image Size:"
+msgstr "Inirerekomendang Sukat ng Imahe"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:626
+msgid "OR Link Directly To Header Image"
+msgstr "O-link Direktang Upang Header ng Larawan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:645
+msgid ""
+"If your header image is already the size you desire, disable header imager "
+"resizing."
+msgstr ""
+"Kung ang iyong header imahe ay ang laki na gusto mo, huwag paganahin ang "
+"pagbabago ng laki ng header imager."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:645
+msgid "Header Image Resizing"
+msgstr "Larawan pagre-resize ng header"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:649
+msgid "Enable Header Image Resizing"
+msgstr "Paganahin ang pagre-resize ng Header ng Larawan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:654
+msgid "Header Image Margin"
+msgstr "Larawan margin ng header"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:654
+msgid ""
+"Set the margin or space around the header image.  If you are sure you're "
+"header image is the correct size, be sure to make sure this is set to 0px."
+msgstr ""
+"Itakda ang margin o espasyo sa paligid ng imahe ng header. Kung sigurado ka "
+"ka 'muling header imahe ay ang tamang laki, siguraduhin upang matiyak na ito "
+"ay nakatakda sa 0px."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:674
+msgid "Hide Header On This Page"
+msgstr "Itago ang Header On This Page"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:680
+msgid "Hide Breadcrumbs On This Page"
+msgstr "Itago ang mga Breadcrumbs On This Page"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:687
+msgid "Show or hide elements in the header."
+msgstr "Ipakita o itago ang mga elemento sa header."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:687
+msgid "Header Elements"
+msgstr "Header Mga Elemento ng"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:690
+msgid "Show Tagline"
+msgstr "Ipakita ang Tagline"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:691
+msgid "Show Navigation"
+msgstr "Ipakita ang Navigation"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:692
+msgid "Show Navigation Search Bar"
+msgstr "Ipakita ang Navigation Search Bar"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:693
+msgid "Show Subscribe Link"
+msgstr "Ipakita ang Mag-subscribe Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:694
+msgid "Show Breadcrumbs"
+msgstr "Ipakita Breadcrumbs"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:700
+msgid "Header Style"
+msgstr "Header Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:700
+msgid "Fixed Header"
+msgstr "Fixed Header"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:700
+msgid "Fluid Header"
+msgstr "Tuluy-tuloy Header"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:700
+msgid ""
+"Fluid: The header is outside the wrapper and spans the whole width of the "
+"page.  Fixed: Header stays inside wrapper."
+msgstr ""
+"Tuluy-tuloy header ay sa labas ng wrapper at sumasaklaw sa buong lapad ng "
+"pahina. Fixed Header ay mananatili sa loob ng wrapper."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:710
+msgid "Header Rearranging"
+msgstr "Header Rearranging"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:710
+msgid ""
+"Enable header rearranging to change the order of the header, navigation, and "
+"breadcrumbs with drag and drop.  Cool, eh?"
+msgstr ""
+"Paganahin ang header rearranging upang baguhin ang pagkakasunud-sunod ng "
+"header, nabigasyon, at breadcrumbs gamit ang drag at drop. Cool, eh?"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:735
+msgid "Hide Footer On This Page"
+msgstr "Itago ang Footer On This Page"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:741
+msgid "Footer Style"
+msgstr "Footer ng Estilo"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:743
+msgid "Fixed Footer"
+msgstr "Fixed Footer"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:744
+msgid "Fluid Footer"
+msgstr "Tuluy-tuloy Footer"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:745
+msgid ""
+"Much like the header, you can choose if you want to footer to be fluid or "
+"fixed.  Fluid is where the footer spans the width of the page and fixed is "
+"where the footer stays inside the page wrapper."
+msgstr ""
+"Karamihan tulad ng sa header, maaari mong piliin kung nais mong sa footer sa "
+"likido o nakapirming. Likido ay kung saan ang footer sa sumasaklaw ang lapad "
+"ng pahina at naayos ay kung saan ang footer nananatili sa loob ng wrapper ng "
+"pahina."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:749
+msgid "Show or hide elements in the footer."
+msgstr "Ipakita o itago ang mga elemento sa footer."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:749
+msgid "Footer Elements"
+msgstr "Footer Mga Elemento ng"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:753
+msgid "Show Admin Link/Login"
+msgstr "Ipakita ang Admin Link / Login"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:758
+msgid "Show Edit Link"
+msgstr "Ipakita ang I-edit ang Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:763
+msgid "Show Go To Top Link"
+msgstr "Ipakita ang Pumunta Upang Nangungunang Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:768
+msgid "Show Copyright"
+msgstr "Ipakita Copyright"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:773
+msgid "Hide Headway Attribution"
+msgstr "Itago ang usad Attribution"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:778
+msgid "Custom Copyright"
+msgstr "Custom Copyright"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:778
+msgid ""
+"If you wish to have something different than the regular copyright, enter it "
+"here.  You MUST use HTML entities in this field."
+msgstr ""
+"Kung nais mong magkaroon ng isang bagay na naiiba kaysa sa regular na "
+"copyright, ipasok ito dito. KAILANGAN mong gamitin ang mga HTML mga entity "
+"sa patlang na ito."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:797
+msgid "Inactive Tabs"
+msgstr "Hindi aktibo Tab"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:799
+msgid "Menus"
+msgstr "Mga Menu"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:807
+msgid "Headway has detected you are using WordPress' menu functionality."
+msgstr "Usad Nakakita ikaw ay gumagamit ng pag-andar ng menu ng WordPress '."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:807
+msgid ""
+"You can select which menu you would like to show in the navigation bar.  You "
+"can also change which menu you would like to use for individual pages in the "
+"WordPress page editor."
+msgstr ""
+"Maaari mong piliin kung aling menu ang nais mong upang ipakita sa navigation "
+"bar. Maaari mo ring baguhin kung aling menu ang gusto mong gamitin para sa "
+"mga indibidwal na mga pahina sa WordPress pahina editor."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:828
+msgid "Modify Navigation"
+msgstr "Baguhin ang Navigation"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:848
+msgid "Hide Navigation On This Page"
+msgstr "Itago ang Navigation Sa ang Pahinang Ito"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:854
+msgid "Navigation Position"
+msgstr "Nabigasyon Posisyon"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:856
+msgid "Left"
+msgstr "Kaliwa"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:857
+msgid "Right"
+msgstr "Karapatan"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:859
+msgid "Change the position of your navigation."
+msgstr "Baguhin ang posisyon ng iyong navigation."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:864
+msgid "Sub-Navigation"
+msgstr "Sub-Navigation"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:869
+msgid "Enable or disable subpages from being shown in the navigation bar."
+msgstr ""
+"Paganahin o huwag paganahin ang mga subpages ipinapakita sa navigation bar."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:869
+msgid "Show Navigation Subpages"
+msgstr "Ipakita ang mga Subpages Navigation"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:875
+msgid "Sub-Navigation Width"
+msgstr "Sub-Navigation Lapad"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:875
+msgid "Change how wide the navigation is when you hover over a parent."
+msgstr ""
+"Baguhin kung gaano malawak ang navigation kapag mag-hover sa ibabaw ng "
+"magulang."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:885
+msgid "Home Link"
+msgstr "Home Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:890
+msgid "Hide or show the home link from being shown."
+msgstr "Itago o ipakita ang home link mula sa ipinapakita."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:890
+msgid "Hide Navigation Home Link"
+msgstr "Itago ang Navigation Home Link"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/visual-editor/content/panels.php:895
+msgid "Home Link Text"
+msgstr "Home Link Text"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:4
+msgid ""
+"Simple search form.  Use this Widget instead of the other search widget."
+msgstr ""
+"Simpleng anyo ng paghahanap. Gamitin ang Widget sa halip ng iba pang mga "
+"widget ng paghahanap."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:5
+msgid "Headway Search"
+msgstr "Usad Paghahanap"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:10
+msgid "Type Here To Search, Then Press Enter"
+msgstr "Type Narito Upang Paghahanap, Pagkatapos ay Pindutin ang Enter"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:44
+msgid "Displays subscribe via RSS and e-mail links."
+msgstr "Ipinapakita ang mag-subscribe sa pamamagitan ng RSS at e-mail link."
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:45
+msgid "Subscribe"
+msgstr "Sumuskribi"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:58
+msgid "Subscribe via E-Mail"
+msgstr "Mag-subscribe sa pamamagitan ng E-Mail"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:86
+msgid "Displays any number of your Twitter updates"
+msgstr "Ang anumang bilang ng iyong mga update sa Twitter"
+
+#: /Applications/MAMP/htdocs/headway/dev/wp-content/themes/Headway-20/library/widgets/functions.php:87
+msgid "Twitter"
+msgstr "Twitter"

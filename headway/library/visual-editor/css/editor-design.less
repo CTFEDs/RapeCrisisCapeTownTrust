@@ -1,0 +1,843 @@
+/* Element Selector */
+div.design-editor-element-selector-container { 
+	float: left; 
+	position: relative;
+	height: 100%;
+}
+
+	div#scrollbarpaper-design-editor-main-elements { 
+		top: 0;
+		left: 205px; 
+	}
+	
+	div#scrollbarpaper-design-editor-sub-elements { 
+		top: 0;
+		left: 425px; 
+	}
+	
+ul.element-selector { 
+	user-select: none;
+	-webkit-user-select: none;
+	position: relative; 
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-right: 2px solid #1C1C1C;
+}
+
+ul.element-selector-hidden { 
+	display: none; 
+}	
+
+ul.element-selector li span {
+	padding: 10px 10px 10px 30px;
+	width: 180px;
+}
+
+	/* Groups */
+		ul.element-selector li.element-group span {
+			width: 195px;
+			padding: 10px 10px 10px 15px;
+			cursor: default;
+			font-weight: 300;
+			color: #666;
+		}
+
+			ul.element-selector li.element-group span:hover {
+				color: #666;
+			}
+
+	/* Sub Elements */
+		#design-editor-sub-elements li span {
+			width: 195px;
+			padding: 10px 10px 10px 15px;
+		}
+
+
+ul.element-selector li span small {
+	color: #4a4a4a;
+	font-size: 95%;
+	margin: 0 0 0 5px;
+}
+
+ul.element-selector li.has-children span:after {
+   content: "";
+   float: right;
+   width: 8px;
+   height: 8px;
+   margin: 2px 15px 0 0;
+   .icon-font;
+   content: '\69';
+   color: #767676;
+   line-height: 12px;
+}
+
+ul.element-selector.scrollbarpaper-visible li span {
+	width: 165px;
+}
+
+ul.element-selector.scrollbarpaper-visible li.has-children span:after {
+	margin-right: 5px;
+}
+/* End Element Selector */
+
+
+/* Main box */
+div.design-editor-options-container { 
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	position: relative;
+	.border-box;
+	padding: 15px 20px 15px 15px; 
+}
+	
+	div.design-editor-options { 
+		padding: 0 0 15px;
+		margin: 35px 0 0; 
+	}
+		
+/* Main box scroll */
+div.scrollbarpaper-container-design-editor-options-container { 
+    right: 0;
+    top: 50px;
+	background: #1c1c1c;
+}
+
+	div.scrollbarpaper-container-design-editor-options-container div.scrollbarpaper-drag { 
+		background: #010101;
+	}
+
+/* Title */
+div.design-editor-options-container div.design-editor-info {
+	user-select: none;
+	-webkit-user-select: none;
+	color: #555555;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	background: #151515;
+	padding: 10px 15px;
+	.rounded-corners(7px);
+	width: 100% !important;
+	height: 33px;
+	position: relative;
+	overflow: hidden;
+	
+	.border-box;
+}
+
+	div.design-editor-options-container div.design-editor-info h4, 
+	div.design-editor-options-container div.design-editor-info span, 
+	div.design-editor-options-container div.design-editor-info strong, 
+	div.design-editor-options-container div.design-editor-info em {
+		font-size: inherit;
+		font-family: inherit;
+	}
+	
+	div.design-editor-options-container div.design-editor-info h4 { 
+		float: left;
+		white-space: nowrap;
+	}
+	
+	div.design-editor-options-container div.design-editor-info span { 
+		color: #888;
+	}
+	
+	div.design-editor-options-container div.design-editor-info strong {
+		margin-left: 4px;
+		color: #616161;
+	}
+	
+	div.design-editor-options-container div.design-editor-info code {
+		font-family: monospace;
+		background: rgba(255, 255, 255, .1);
+		color: #888;
+		.rounded-corners(3px);
+		display: inline-block;
+		white-space: nowrap;
+		overflow: hidden;
+		.allow-highlight;
+		padding: 0 6px;
+		margin: -1px 0 0 10px;
+		line-height: 18px;
+		height: 19px;
+		position: relative;
+		letter-spacing: 1px;
+		font-size: 11px;
+		top: -1px;
+	}
+
+	div.design-editor-options-container div.design-editor-info em { 
+		color: #414141;
+	}
+	
+	div.design-editor-options-container div.design-editor-info span.customize-element-for-layout {
+		font-size: 11px;
+	}
+
+	div.design-editor-info-right {
+		float: right;
+		margin: 0;
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		z-index: 2;
+	}	
+		
+		div.design-editor-info-right select {
+			background: #333;
+			cursor: pointer;
+		    border: 1px solid #3C3C3C;
+		    .rounded-corners(5px);
+		    color: #eee;
+			margin: 0 0 0 5px;
+			opacity: 0.6;
+		}
+
+		div.design-editor-info-right select.instances {
+			max-width: 150px;
+			float: left;
+		}
+		
+		div.design-editor-info-right select.states {
+			max-width: 150px;
+			float: left;
+		}
+		
+		div.design-editor-info-right span.design-editor-info-button {
+			font-size: 11px;
+			color: #bbb;
+			float: left;
+		}
+		
+		div.design-editor-info-right span.design-editor-info-button:hover {
+			color: #fff;
+		}
+		
+		/* Hide the button that brings you back to the regular element */
+		span.customize-for-regular-element {
+			display: none;
+		}
+
+	
+/* Properties */
+body #panel div.design-editor-box {
+	background: #151515;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 10px;
+	display: block;
+	.rounded-corners(7px);
+	width: 210px;
+
+	/* Lock Sides */
+	.design-editor-lock-sides {
+		display: block;
+		text-decoration: underline;
+		cursor: pointer;
+		color: #888;
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		margin-top: -22px;
+		margin-left: -14px;
+		z-index: 1;
+		background: #333;
+		.rounded-corners(30px);
+		padding: 10px;
+		border: 1px solid black;
+		text-decoration: none;
+		width: 12px;
+		height: 12px;
+
+		&:hover:not(.locked) {
+			background: #3c3c3c;
+		}
+
+		&.locked {
+			color: #78BBAC;
+		}
+	}
+
+	/* need to hide the lock icon if minimized */
+	&.design-editor-box-minimized  .design-editor-lock-sides {
+		display: none;
+	}
+
+	.design-editor-lock-sides:before {
+		.icon-font;
+		font-size: 16px;
+		line-height: .8;
+		content: "5";
+	}
+
+	&.locked ul,
+	&.locked ul li.lockable input,
+	&.locked ul li.lockable .customize-property span {
+		border-color: #78BBAC!important;
+		color: #78BBAC;
+	}
+}
+
+	div.design-editor-box-minimized ul.design-editor-box-content { 
+		display: none; 
+	}
+			
+	div.design-editor-box-minimized span.design-editor-box-toggle:after { 
+		content: '\69';
+		line-height: 18px;
+	}
+	
+span.design-editor-box-title {
+	font-size: 12px;
+	width: 190px;
+	text-align: right;
+	color: #999;
+	font-weight: 500;
+	float: right;
+	margin: -6px 0;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none; 
+}
+	
+span.design-editor-box-toggle {
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	cursor: pointer; 
+	text-align: center;
+}
+
+	span.design-editor-box-toggle:after {
+		.icon-font;
+		color: #575757;
+		line-height: 18px;
+		content: '\64';
+		font-size: 18px;
+	}
+	
+ul.design-editor-box-content {
+	clear: both;
+    display: block;
+    float: left;
+    margin: 0;
+	padding: 0;
+    width: 100%; 
+}
+
+	ul.design-editor-box-content > li {
+		margin: 7px 0 0;
+		background: #1f1f1f;
+		padding: 2px 8px;
+		.rounded-corners(5px);
+		font-size: 11px;
+		float: left;
+		display: block;
+		width: 195px;
+		position: relative; 
+	}
+					
+		ul.design-editor-box-content > li > strong { 
+			color: #8c8c8c;
+			font-weight: 500;
+			height: 26px;
+			line-height: 26px;
+			float: left;
+			user-select: none;
+			-webkit-user-select: none;
+			cursor: default;
+		}
+	
+		ul.design-editor-box-content > li span.uncustomize-property {
+			text-indent: -9999px;
+		    height: 10px;
+		    width: 10px;
+			cursor: pointer;
+			display: none;
+			color: rgba(255, 255, 255, .25);
+			margin: 8px 0 0 7px;
+			float: right;
+			user-select: none;
+			-webkit-user-select: none;
+			.transition('color 100ms linear');
+		
+			&:hover {
+				color: rgba(255, 255, 255, .8);
+			}
+
+			&:before {
+				.icon-font;
+				content: '\78';
+				float: left;
+				font-size: 11px;
+				line-height: 11px;
+			}
+		}
+		
+		/* Only show the uncustomize button on hovered properties */
+		ul.design-editor-box-content li:hover span.uncustomize-property {
+			display: block;
+		}
+	
+		/* Hide the uncustomize button on uncustomized elements */
+		ul.design-editor-box-content li.uncustomized-property strong span.uncustomize-property {
+			display: none;
+		}
+		
+		ul.design-editor-box-content li.uncustomized-property div.customize-property {
+			display: block;
+		}
+		
+		ul.design-editor-box-content li > div.property { 
+			color: #626262;
+			font-weight: 400;
+			float: right;
+			max-width: 95px; 
+		}
+			
+	/* Customize Overlay */
+	ul.design-editor-box-content li.uncustomized-property {
+		background: #1a1a1a;
+	}
+		
+	ul.design-editor-box-content li.uncustomized-property div.property {
+		opacity: .075;
+	}
+	
+	ul.design-editor-box-content li div.customize-property {
+		/* Hide the customize button by default.  It will only show on uncustomized properties. */
+		display: none;
+		position: absolute;
+		top: 50%;
+		right: 10px;
+		color: #666;
+		margin: -10px 0 0 0;
+		line-height: 20px;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+	
+		ul.design-editor-box-content li div.customize-property span {
+			text-decoration: underline;
+			cursor: pointer;
+			color: #888;
+		}
+		
+			ul.design-editor-box-content li div.customize-property span:hover {
+				text-decoration: none;
+			}
+
+/* Common styling for 4 side elements */
+body #panel .design-editor-box-rounded-corners,
+body #panel .design-editor-box-padding,
+body #panel .design-editor-box-borders,
+body #panel .design-editor-box-margins {
+
+	ul.design-editor-box-content {
+		top: 5px;
+		border: 1px solid #444;
+		margin: 20px 20px 20px 20px;
+		height: 80px;
+		width: 170px;
+		position: relative;
+
+		li.uncustomized-property div.property {
+			opacity: 0;
+		}
+	}
+
+	li.lockable {
+		margin: 0;
+		padding:0;
+		background: none;
+		.rounded-corners(5px);
+		font-size: 11px;
+		display: block;
+		width: 28px;
+		position: absolute;
+
+		strong span.property-label {
+			display: none;
+		}
+
+		input[type="text"] {
+			border-color: #444;
+			background: #333;
+			.rounded-corners(3px);
+		}
+
+		.unit {
+			display: none;
+		}
+
+		&:hover .unit,
+		&:hover span.uncustomize-property {
+			display: block;
+			position: absolute;
+			z-index: 1;
+			left: 12px;
+			top: 16px;
+		}
+
+		/* hide icon on hover to uncustomized */
+		&.uncustomized-property {
+			&:hover span.uncustomize-property {
+				display: none;
+			}
+		}
+
+		&:hover span.uncustomize-property {
+			left: -18px;
+			top: -2px;
+		}
+
+	}
+
+}
+
+/* Rounded Corners */
+body .design-editor-box-rounded-corners {
+
+	ul.design-editor-box-content {
+		
+		li.lockable {
+
+			&.design-editor-property-border-top-left-radius {
+				top: -12px;
+				left: -5px;
+				.customize-property {
+					top: 19px;
+					left: 6px;
+				}
+			}
+
+			&.design-editor-property-border-top-right-radius {
+				top: -12px;
+				right: -20px;
+				.customize-property {
+					top: 19px;
+					right: 22px;
+				}
+			}
+
+			&.design-editor-property-border-bottom-left-radius {
+				bottom: -15px;
+				left: -5px;
+				.customize-property {
+					top: 4px;
+					left: 6px;
+				}
+			}
+
+			&.design-editor-property-border-bottom-right-radius {
+				bottom: -15px;
+				right: -20px;
+				.customize-property {
+					top: 4px;
+					right: 22px;
+				}
+			}
+		}
+	}
+}
+
+/* Padding */
+body #panel .design-editor-box-padding {
+
+	.design-editor-lock-sides {
+		top: 96px!important;
+	}
+
+	ul.design-editor-box-content {
+
+		margin: 10px 10px 10px 10px;
+		height: 100px;
+		width: 190px;
+		
+		li.lockable {
+
+			&.design-editor-property-padding-top {
+				top: -3px;
+				left: 50%;
+				.customize-property {
+					top: 11px;
+					left: -25px;
+				}
+				input[type="text"] {
+					border-radius: 0 0 3px 3px;
+				}
+			}
+
+			&.design-editor-property-padding-right {
+				top: 50%;
+				right: -4px;
+				margin-top: -13px;
+				.customize-property {
+					top: 11px;
+					right: 5px;
+				}
+				input[type="text"] {
+					border-radius: 3px 0 0 3px;
+				}
+			}
+
+			&.design-editor-property-padding-bottom {
+				bottom: -1px;
+				left: 50%;
+				.customize-property {
+					top: 18px;
+					left: -25px;
+				}
+				input[type="text"] {
+					border-radius: 3px 3px 0 0;
+				}
+			}
+
+			&.design-editor-property-padding-left {
+				top: 50%;
+				left: 11px;
+				margin-top:	-13px;
+				.customize-property {
+					top: 11px;
+					left: -8px;
+				}
+				input[type="text"] {
+					border-radius: 0 3px 3px 0;
+				}
+			}
+		}
+	}
+}
+
+
+/* Borders */
+body #panel .panel .design-editor-box-borders {
+
+	padding-bottom: 140px;
+
+	&.design-editor-box-minimized {
+		padding-bottom: 10px;
+	}
+
+	.design-editor-lock-sides {
+		top: 195px;
+	}
+
+	ul.design-editor-box-content {
+
+		top: 120px;
+		margin: 0 15px;
+		width: 180px;
+
+		li.design-property-border-heading,
+		li.design-editor-property-border-style,
+		li.design-editor-property-border-color {
+			position: absolute;
+			left: -15px;
+		}
+		
+		li.design-property-border-heading {
+			background: none;
+			top: -50px;
+		}
+
+		li.design-editor-property-border-color {
+			top: -120px;
+		}
+
+		li.design-editor-property-border-style {
+			top: -84px;
+		}
+		
+		li.lockable {
+
+			&.design-editor-property-border-top-width {
+				top: -10px;
+				left: 50%;
+				.customize-property {
+					top: 15px;
+					left: -25px;
+				}
+			}
+
+			&.design-editor-property-border-right-width {
+				bottom: 27px;
+				right: -20px;
+				margin-top: -13px;
+				.customize-property {
+					top: 11px;
+					right: 20px;
+				}
+			}
+
+			&.design-editor-property-border-bottom-width {
+				bottom: -14px;
+				left: 50%;
+				.customize-property {
+					top: 7px;
+					left: -25px;
+				}
+			}
+
+			&.design-editor-property-border-left-width {
+				bottom: 27px;
+				left: -6px;
+				margin-top:	-13px;
+				.customize-property {
+					top: 11px;
+					left: 6px;
+				}
+			}
+		}
+	}
+}
+
+/* Margins */
+body #panel .design-editor-box-margins {
+
+	.design-editor-lock-sides {
+		top: 114px !important;
+		margin-left: -17px !important;
+	}
+
+	ul.design-editor-box-content {
+
+		margin: 30px 0 30px 39px;
+		height: 90px;
+		width: 130px;
+
+		li.lockable {
+
+			&.design-editor-property-margin-top {
+				top: -22px;
+				left: 50%;
+				margin-left: -5px;
+
+				.customize-property {
+					top: 11px;
+					left: -25px;
+				}
+
+				input[type="text"] {
+					border-radius: 3px 3px 0 0;
+				}
+			}
+
+			&.design-editor-property-margin-right {
+				top: 50%;
+				right: -40px;
+				margin-top: -13px;
+
+				.customize-property {
+					top: 11px;
+					right: 7px;
+				}
+
+				input[type="text"] {
+					border-radius: 0 3px 3px 0;
+				}
+			}
+
+			&.design-editor-property-margin-bottom {
+				bottom: -24px;
+				left: 50%;
+				margin-left: -5px;
+
+				.customize-property {
+					top: 14px;
+					left: -25px;
+				}
+
+				input[type="text"] {
+					border-radius: 0 0 3px 3px;
+				}
+			}
+
+			&.design-editor-property-margin-left {
+				top: 50%;
+				left: -25px;
+				margin-top:	-13px;
+
+				.customize-property {
+					top: 11px;
+					left: -8px;
+				}
+
+				input[type="text"] {
+					border-radius: 3px 0 0 3px;
+				}
+			}
+		}
+	}
+}
+
+/* End Properties */
+
+
+/* Property Inputs */
+	/* Integer */
+		div.property-integer input {
+			width: 25px;
+			border:1px solid #222;
+			background: #181818;
+			color:#ddd;
+			outline:none;
+			text-align:right;
+			padding: 2px 5px;
+			float: left;
+			margin: 2px 3px 0 0;
+		}
+		
+		div.property-integer span.unit { 
+			float: left;
+			margin: 5px 0 0 0;
+			user-select: none;
+			-webkit-user-select: none;
+		}
+	
+	/* Color */
+
+	/* Select */
+		div.property .select-container {
+			margin-top: 3px;
+		}
+
+		div.property .select-container select {
+		    font-size: 11px;
+			width: 90px;
+		}
+		
+	/* Image */
+		div.property-image span.button {
+		    font-size: 11px;
+		    height: 20px;
+		    line-height: 20px;
+		    margin: 3px 0 0;
+			float: right;
+		}
+		
+		div.property-image div.image-input-controls-container {
+			width: 200px;
+			margin: 10px 0 10px -100px;
+			float: left;
+		}
+		
+		div.property-image span.src {
+			font-size: 11px;
+			line-height: 13px;
+			color: #666;
+			margin: 0;
+			max-width: 170px;
+		}
+		
+		div.property-image span.delete-image {
+			margin: 1px 0 0 10px;
+			float: left;
+		}
+/* End Property Inputs */
