@@ -33,7 +33,11 @@ specific language governing permissions and limitations under the License.
             include_once($wpmp_include);
           } else {
             ?>
-              <p><?php printf(__("Powered by the <a%s>WordPress Mobile Pack</a>", 'wpmp'), ' href="http://wordpress.org/extend/plugins/wordpress-mobile-pack/"');?> | <?php printf(__("Theme designed by <a%s>ribot</a>", 'wpmp'), ' href="http://ribot.co.uk"'); ?></p>
+              <ul class="mobi-social">
+                  <li><a href="http://www.facebook.com/rapecrisiscapetown" title="Facebook">Facebook</a></li>
+                  <li><a href="https://twitter.com/rapecrisis" title="Twitter">Twitter</a></li>
+                  <li><a href="http://mxitapp.com/rapecrisis/signup" title="Mxit">Mxit</a></li>
+              </ul>
             <?php
           }
         ?>
