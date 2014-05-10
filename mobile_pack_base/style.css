@@ -78,3 +78,9 @@ div.dateicon, p.metadata {
 .navigation, h3, div.post, #footer {
   border-top-color:#FFFFFF;
 }
+
+
+/* REMOVE SOCIAL ICONS */
+#social-tabs ul.social-tabs{
+    display: none !important;
+}

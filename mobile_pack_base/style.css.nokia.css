@@ -183,3 +183,8 @@ body.nokia_mid h1, body.nokia_mid h2, body.nokia_mid div.header-box h3,
 body.nokia_mid h1 a, body.nokia_mid h2 a, body.nokia_mid div.header-box h3 a {
   color: #FFFFFF!important;
 }
+
+/* REMOVE SOCIAL ICONS */
+#social-tabs ul.social-tabs{
+    display: none !important;
+}
