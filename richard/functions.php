@@ -11,10 +11,22 @@ class RapeCrisisManager
 
     add_filter("attachment_fields_to_edit", array($this, "add_image_attachment_fields_to_edit"), null, 2);
     add_filter("attachment_fields_to_save", array($this, "add_image_attachment_fields_to_save"), null , 2);
+    add_shortcode( 'rcctt_social_icons', array($this, "rcctt_social_icons_shortcode") );
 
   }
 
-  function add_image_attachment_fields_to_edit($form_fields, $post) {
+  public function rcctt_social_icons_shortcode(){
+    $return = <<<HTML
+        <a href="http://www.facebook.com/rapecrisiscapetown" class="social-button facebook"></a>
+        <a href="https://twitter.com/rapecrisis" class="social-button twitter"></a>
+        <a href="http://rapecrisisblog.wordpress.com/" class="social-button rss"></a>
+        <a href="http://mxitapp.com/rapecrisis/signup" class="social-button mxit"></a>
+HTML;
+
+    return $return;
+  }
+
+  public function add_image_attachment_fields_to_edit($form_fields, $post) {
     $isRandom = (bool) get_post_meta($post->ID, '_randomSlider', true);
 
     $form_fields["credit"] = array(
@@ -27,7 +39,7 @@ class RapeCrisisManager
     return $form_fields;
   }
 
-  function add_image_attachment_fields_to_save($post, $attachment) {
+  public function add_image_attachment_fields_to_save($post, $attachment) {
 
     if( isset($attachment['randomSlider']) ){
       update_post_meta($post['ID'], '_randomSlider', $attachment['randomSlider']);
