@@ -84,3 +84,25 @@ div.dateicon, p.metadata {
 #social-tabs ul.social-tabs{
     display: none !important;
 }
+
+
+.menu {
+  display: block;
+  padding: 0.5em;
+}
+
+.nav-main .breadcrumbs .page_item {
+  display: block;
+  margin: 0;
+  border-bottom: solid 1px #999;
+}
+
+.nav-main .breadcrumbs .page_item:first-child {
+  border-top: solid 1px #999;
+}
+
+.nav-main a {
+  display: block;
+  padding: 0.5em 0;
+  text-decoration: none;
+}
