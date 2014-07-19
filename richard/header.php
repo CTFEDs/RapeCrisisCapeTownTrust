@@ -1,8 +1,6 @@
 <?php
 wp_head();
 
-$RapeCrisisManager = new RapeCrisisManager();
-
-echo "hi";
+global $RapeCrisisManager;
 
 echo $RapeCrisisManager->getRandomHeaderImageHtml();
