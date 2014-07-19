@@ -4,5 +4,14 @@
  * generally use this hook to reference JavaScript files.
  */
 
+?>
+
+
+</div><!-- #wrapper -->
+
+<?php
+
 wp_footer();
 ?>
+</body>
+</html>
