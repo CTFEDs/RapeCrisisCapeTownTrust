@@ -91,14 +91,19 @@ div.dateicon, p.metadata {
   padding: 0.5em;
 }
 
+.nav-main {
+  border-top: solid 2px #999;
+  margin-top: 1em;
+}
+
 .nav-main .breadcrumbs .page_item {
   display: block;
   margin: 0;
-  border-bottom: solid 1px #999;
+  // border-bottom: solid 1px #999;
 }
 
 .nav-main .breadcrumbs .page_item:first-child {
-  border-top: solid 1px #999;
+  // border-top: solid 1px #999;
 }
 
 .nav-main a {
