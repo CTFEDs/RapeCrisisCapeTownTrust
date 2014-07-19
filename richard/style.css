@@ -1,0 +1,40 @@
+/*
+THEME NAME:Richards temp
+THEME URI:
+VERSION:0.1a
+AUTHOR:richard
+AUTHOR URI:
+DESCRIPTION:mine
+
+*/
+
+.social-button {
+  opacity: .8;
+  background: url(images/sprite.png) transparent 0 0 no-repeat;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+}
+
+.social-button.twitter {
+  background-position: 0 0;
+}
+
+.social-button.facebook {
+  background-position: -41px 0;
+}
+
+.social-button.rss {
+  background-position: -82px 0;
+}
+
+.social-button.mxit  {
+  background-position: -123px 0;
+}
+
+.social-button:active,
+.social-button:active,
+.social-button:hover {
+  opacity: 1;
+}
+
