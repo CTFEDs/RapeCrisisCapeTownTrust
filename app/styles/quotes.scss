@@ -1,0 +1,5 @@
+@import "vars.scss";
+blockquote {margin-left:1em; border-left:$colour_borders solid 1px; padding-left:1em;
+    p {}
+    cite {display:block; text-align:right;}
+}

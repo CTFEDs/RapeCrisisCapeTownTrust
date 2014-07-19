@@ -14,12 +14,16 @@
         <link rel="stylesheet" href="styles/document_tree.css">
         <link rel="stylesheet" href="styles/headings.css">
         <link rel="stylesheet" href="styles/text.css">
+        <link rel="stylesheet" href="styles/tables.css">
+        <link rel="stylesheet" href="styles/images.css">
+        <link rel="stylesheet" href="styles/quotes.css">
         <!-- endbuild -->
         <style>
             section.sg {margin:2em 0; background-color:#eee; padding:0.5em;}
             .sg_heading {margin-top:0;}
             .sg_code {float:right; width:200px;}
-            .sg_example {margin:1em 225px 1em 0; padding:0.5em; border:#ccc solid 1px; background-color:#fff;}
+            .sg_code code {display:block;}
+            .sg_example {margin:1em 225px 1em 0; padding:0.5em; border:#ccc solid 1px; background-color:#fff; overflow:hidden;}
         </style>
     </head>
     <body>
@@ -156,6 +160,95 @@
                         <dd>Another term's definition</dd>
                     </dl>
                 </div>
+            </div>
+            <div class="sg sg_code">Myth vs. Truth lists <code>&lt;dl class="list_mvt"&gt;</code> <a href="http://rapecrisis.org.za/rape-in-south-africa/myths-stereotypes-about-rape/">Example</a></div>
+            <div class="sg_example">
+                <div class="entry-content">
+                    <ul class="list_mvt">
+                        <li>
+                            <h1 class="myth">Myth: Nessy exists!</h1>
+                            <p class="myth_description">There have been a number of sightings of a strange beast in or around Loch Ness in Scotland.</p>
+                            <p class="truth">Truth: There is no scientific evidence that Nessy exists.</p>
+                        </li>
+                        <li>
+                            <h1 class="myth">Myth: Aliens crash-landed in Roswell, New Mexico.</h1>
+                            <p class="myth_description">According to a number of eye-witnesses, a flying saucer crash-landed outside of Roswell, New Mexico in 1947.</p>
+                            <p class="truth">Truth: There is no scientific evidence that Aliens or Flying Saucers exists.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sg sg_code">Table <code>&lt;table&gt;</code></div>
+            <div class="sg_example">
+                <table>
+                    <tr>
+                        <th scope="row">Row header</th>
+                        <td>Row content</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Row header</th>
+                        <td>Row content</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sg sg_code">Simple Table <code>&lt;table class="table_simple"&gt;</code> <a href="http://rapecrisis.org.za/support-us/donate/">Example</a></div>
+            <div class="sg_example">
+                <table class="table_simple">
+                    <tr>
+                        <th scope="row">Row header</th>
+                        <td>Row content</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Row header</th>
+                        <td>Row content</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sg sg_code">Image <code>&lt;img&gt;</code></div>
+            <div class="sg_example">
+                <img src="http://placekitten.com/800/300" alt="A wide cat.">
+                <img src="http://placekitten.com/200/200" alt="Another cat.">
+                <img src="http://placekitten.com/200/600" alt="A tall cat.">
+            </div>
+            <div class="sg sg_code">Image (left-aligned) <code>&lt;img class="alignleft"&gt;</code></div>
+            <div class="sg_example">
+                <img class="alignleft" src="http://placekitten.com/800/300" alt="A wide cat.">
+                <img class="alignleft" src="http://placekitten.com/200/200" alt="Another cat.">
+                <img class="alignleft" src="http://placekitten.com/200/600" alt="A tall cat.">
+            </div>
+            <div class="sg sg_code">Image (right-aligned) <code>&lt;img class="alignright"&gt;</code></div>
+            <div class="sg_example">
+                <img class="alignright" src="http://placekitten.com/800/300" alt="A wide cat.">
+                <img class="alignright" src="http://placekitten.com/200/200" alt="Another cat.">
+                <img class="alignright" src="http://placekitten.com/200/600" alt="A tall cat.">
+            </div>
+            <div class="sg sg_code">Image (centre-aligned) <code>&lt;img class="aligncenter"&gt;</code></div>
+            <div class="sg_example">
+                <img class="aligncenter" src="http://placekitten.com/800/300" alt="A wide cat.">
+                <img class="aligncenter" src="http://placekitten.com/200/200" alt="Another cat.">
+                <img class="aligncenter" src="http://placekitten.com/200/600" alt="A tall cat.">
+            </div>
+            <div class="sg sg_code">Figure image (with captions) <code>&lt;figure&gt;</code></div>
+            <div class="sg_example">
+                <figure>
+                    <img src="http://placekitten.com/800/300" alt="A wide cat.">
+                    <figcaption>A wide cat.</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://placekitten.com/200/200" alt="Another cat.">
+                    <figcaption>Another cat.</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://placekitten.com/200/600" alt="A tall cat.">
+                    <figcaption>A tall cat.</figcaption>
+                </figure>
+            </div>
+            <div class="sg sg_code">Blockquotes <code>&lt;blockquote&gt;</code> <a href="http://rapecrisis.org.za/information-for-survivors/secondary-trauma/">Example</a></div>
+            <div class="sg_example">
+                <blockquote>
+                    <p>In order for evil to flourish, all that is required is for good men to do nothing.</p>
+                    <cite> - Edward Burke</cite>
+                </blockquote>
             </div>
         </section>
 

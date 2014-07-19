@@ -1,0 +1,8 @@
+@import "vars.scss";
+img {vertical-align:top;
+    &.aligncenter {display:block; margin-right:auto; margin-left:auto;}
+    &.alignright {float:right;}
+    &.alignleft {float:left;}
+}
+figure {padding:0.5em; border:$colour_borders solid 1px; display:inline-block; vertical-align:top;}
+figcaption {padding-top:0.5em;}
