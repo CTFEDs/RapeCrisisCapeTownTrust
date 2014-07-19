@@ -1,0 +1,16 @@
+@import "vars.scss";
+.entry-title {font-weight:normal; color:$colour_primary; line-height:1.3; font-family:$font_stack; font-size:1.8em; margin:0.4em 0;}
+.entry-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {font-weight:normal; line-height:1.3; margin:1em 0;}
+    h1 {font-size:1.8em; text-transform:uppercase; color:$colour_primary;}
+    h2 {font-size:1.6em; text-transform:uppercase; color:$colour_primary;}
+    h3 {font-size:1.3em;}
+    h4 {font-size:1em;}
+    h5 {font-size:1em;}
+    h6 {font-size:1em;}
+}
