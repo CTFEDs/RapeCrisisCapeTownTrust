@@ -1,6 +1,6 @@
 @import "vars.scss";
 html {background-color:#ccc;}
-body {font:normal normal 13px/1.5 Arial; color:#555; margin:2em auto; max-width:960px; background-color:#fff; box-shadow:0 0 10px rgba(0,0,0,.5);
+body {font:normal normal 13px/1.5 Arial; color:$colour_font; margin:2em auto; max-width:960px; background-color:#fff; box-shadow:0 0 10px rgba(0,0,0,.5);
     > header {background-color:$colour_primary; color:#fff; padding:0.5em;}
     > footer {background-color:$colour_primary; color:#fff; padding:0.5em;}
 }
