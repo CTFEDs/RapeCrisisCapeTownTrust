@@ -1,0 +1,18 @@
+@import "vars";
+ul {}
+ol {}
+dl {}
+.list_mvt {margin-left:0; margin-right:0;
+    li {margin:0 0 2em; padding:0;}
+    h1 {font-size:1.2em; text-transform:none;}
+    p {margin:0.5em 0;}
+    strong {text-transform:uppercase;}
+    .myth {margin-bottom:0;}
+    .myth_description {}
+    .truth {color:darken($colour_font, 30%);}
+}
+
+.list_profiles {margin-left:0; margin-right:0; text-align:center;
+    li {margin:0; padding:0; background-color:$colour_primary; color:$colour_primary_invert;}
+    img {max-width:200px;}
+}
