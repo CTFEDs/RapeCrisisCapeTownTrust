@@ -160,3 +160,9 @@ a, a:link, a:visited {
   margin-top: 1em;
   border-top: solid 1px #ccc;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #7F3F9D;
+  font-weight: bold;
+  padding: 0.5em 0;
+}

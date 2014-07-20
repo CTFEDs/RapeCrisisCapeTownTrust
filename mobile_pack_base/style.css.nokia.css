@@ -33,12 +33,7 @@ body.nokia_high ul.breadcrumbs {
   margin-left:0;
   padding:10px;
 }
-h1 {
-  margin-top:0;
-}
-body.nokia_low h1, body.nokia_mid h1 {
-  padding-top:0.2em;
-}
+
 ul.list li, dl.list-accordion dt {
   white-space:nowrap;
 }
@@ -91,16 +86,6 @@ body.nokia_high p.metadata {
 
 /* PALETTE */
 
-/* DARKEST */
-body.nokia_low h1, body.nokia_low h2,
-body.nokia_mid h1, body.nokia_mid h2 {
-  border-bottom-color: #111111;
-}
-
-/* VERY DARK */
-body div.header-box h3 {
-  border-color: #333333;
-}
 body.nokia_low div#header, body.nokia_low div#header a,
 body.nokia_mid div#header, body.nokia_mid div#header a,
 body.nokia_low div#footer, body.nokia_low div#footer a,
@@ -117,10 +102,6 @@ ul.list li:hover, dl.list-accordion dt:hover {
 body div#header {
   border-bottom-color: #444444;
 }
-body.nokia_low h1, body.nokia_low h2,
-body.nokia_mid h1, body.nokia_mid h2 {
-  border-top-color: #444444;
-}
 
 /* LIGHT MID */
 body div#footer,
@@ -129,13 +110,6 @@ body input[type='text'], body input[type='search'], body textarea {
   border-color: #DDDFD9;
 }
 
-/* LIGHTEST */
-body.nokia_low h1, body.nokia_low h2, body.nokia_low div.header-box h3,
-body.nokia_low h1 a, body.nokia_low h2 a, body.nokia_low div.header-box h3 a,
-body.nokia_mid h1, body.nokia_mid h2, body.nokia_mid div.header-box h3,
-body.nokia_mid h1 a, body.nokia_mid h2 a, body.nokia_mid div.header-box h3 a {
-  color: #FFFFFF!important;
-}
 
 /* REMOVE SOCIAL ICONS */
 #social-tabs ul.social-tabs{

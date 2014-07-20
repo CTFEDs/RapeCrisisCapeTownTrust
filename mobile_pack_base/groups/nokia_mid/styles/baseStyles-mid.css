@@ -1,7 +1,7 @@
 /* CSS Document */
 /*
  * DEFAULT STYLES
- * 
+ *
  */
 body {
 	color: #333333;
@@ -16,21 +16,12 @@ body div#wrap {
 	left: 0;
 	padding: 0;
 }
-/*
- * HEADER
- * 
- */
-body div#header {
-	height: 36px;
-	background: #D8D8D8 url(../images/sprite-header.png) repeat-x top;
-	margin-bottom: .5em;
-}
+
 /*
  * FOOTER
- * 
+ *
  */
 body div#footer {
-	background: #F6F6F6 url(../images/sprite-footer.png) repeat-x top;
 	padding: .7em 0em;
 	clear: both;
 	height: auto;
@@ -55,9 +46,9 @@ body div#footer p {
 }
 /*
  * BASIC ELEMENTS
- * 
+ *
  */
- 
+
 /*body required as early browsers don't understand p by itself */
 body p {
 	margin-top: 0;
@@ -73,7 +64,7 @@ em {
 }
 /*
  * LINK STATES
- * 
+ *
  */
 a:link {
 	color:#003399;
@@ -90,69 +81,10 @@ a:hover {
 a:active {
 	color:#990000;
 }
-/*
- * HEADERS
- * 
- */
-body h1 {
-	padding-left: 10px;
-	padding-right: 10px;
-	color: white;
-	background: #0038E1 url(../images/sprite-h1.png) repeat-x bottom;
-	border-top: 1px solid #0081CA;
-	margin-top: .1em;
-	margin-bottom: .3em;
-	line-height: normal;
-	clear: both;
-}
 
-body h2 {
-	padding-left: 10px;
-	padding-right: 10px;
-	color: white;
-	background: #55B02B url(../images/sprite-h2.png) repeat-x bottom;
-	border-top: 1px solid #67DD30;
-	margin-top: 0.1em;
-	margin-bottom: 0.3em;
-	line-height: normal;
-	clear: both;
-}
-
-body h3 {
-	padding-left: 10px;
-	color: #000077;
-	margin-top: 0.1em;
-	margin-bottom: 0.3em;
-}
-
-body h4 {
-	padding-left: 10px;
-	color: #CC0066;
-	margin-bottom: 0.3em;
-	margin-top: 0.1em;
-	font-weight: bold;
-}
-
-body h5 {
-	padding-left: 10px;
-	color: #333333;
-	margin-bottom: 0.2em;
-	margin-top: 0.1em;
-}
-
-body h6 {
-	background-color: #F6F6F6;
-	border-bottom: 1px solid #D8D8D8;
-	border-top: 1px solid #D8D8D8;
-	padding-left: 10px;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	margin-bottom: 0.1em;
-	margin-top: 0.1em;
-}
 /*
  * IMAGE WITH BORDER AND (OPTIONAL) CAPTION
- * 
+ *
  */
 body img.image-border {
 	margin: 0 0 0 4px;
@@ -168,7 +100,7 @@ body p.caption-image {
 }
 /*
  * BLOCKQUOTE
- * 
+ *
  */
 blockquote {
 	margin: .3em 1em .6em 1em;
@@ -184,7 +116,7 @@ blockquote p {
 }
 /*
  * LISTS
- * 
+ *
  */
 /* compensates for smaller Opera Mini margins */
 ol, ul, dl {
@@ -203,7 +135,7 @@ body ul {
 }
 /*
  * BREADCRUMBS
- * 
+ *
  */
 body ul.breadcrumbs {
 	padding-top: 0;
@@ -222,7 +154,7 @@ body ul.breadcrumbs li {
 }
 /*
  * FORMS
- * 
+ *
  */
 body fieldset {
 	margin: 0;
@@ -238,18 +170,18 @@ body form {
 body form label {
 	font-size: .9em;
 	margin-bottom: .5em;
-	margin-top: .5em;	
+	margin-top: .5em;
 }
-		
-body input[type='text'] { 
+
+body input[type='text'] {
 	border: 1px solid #D8D8D8;
 	background: #FFF url(../images/img-form-input-shadow.png) repeat-x top;
 	display: block;
-	padding: 0.2em;		
+	padding: 0.2em;
 	margin-bottom:.5em;
 }
 
-body textarea { 
+body textarea {
 	border: 1px solid #D8D8D8;
 	background: #FFF url(../images/img-form-input-shadow.png) repeat-x top;
 	display: block;
@@ -257,7 +189,7 @@ body textarea {
 	margin-bottom: .7em;
 }
 
-body form input[type='radio'], body form input[type='checkbox'] { 
+body form input[type='radio'], body form input[type='checkbox'] {
 	margin:0.1em 0em;
 	padding: 0;
 }
@@ -273,7 +205,7 @@ body input[type='button'] {
 }
 /*
  * TABLE
- * 
+ *
  */
 body table {
 	border: 1px solid #D8D8D8;
@@ -319,7 +251,7 @@ body table td.odd {
 }
 /*
  * CONTAINER BOXES
- * 
+ *
  */
 body div.box p.box-text {
 	border: 1px solid #D8D8D8;
@@ -346,7 +278,7 @@ body div.header-box h3 {
 }
 /*
  * BACK TO TOP/HOME
- * 
+ *
  */
 p.top {
 	font-size: small;
