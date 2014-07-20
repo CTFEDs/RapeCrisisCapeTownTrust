@@ -135,10 +135,6 @@ function wpmp_theme_post($single = false) {
     $wpmp_summary_first=true;
   }
   $summary = get_option('wpmp_theme_post_summary');
-  $metadata = get_option('wpmp_theme_post_summary_metadata')=='true';
-  if ($single || $metadata) {
-    print '<p class="metadata">'. get_the_time('F jS, Y') . ' by ' . get_the_author() . '</p>';
-  }
   if ($single || ($summary!='none' && ($summary!='firstteaser' || $wpmp_summary_first))) {
     print '<div class="entry">';
     the_content(__('Read more', 'wpmp'));

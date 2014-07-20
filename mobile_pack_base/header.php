@@ -59,4 +59,4 @@ if (file_exists($wpmp_include = wpmp_theme_group_file('header.php'))) {
       <p><a href="<?php echo get_option('home'); ?>/"><strong><?php bloginfo('name'); ?></strong></a></p>
       <p><?php bloginfo('description'); ?></p>
     </div>
-    <a href="#menu" class="menu">Menu</a>
+    <a href="#menu" class="menu"><span>Menu</span></a>

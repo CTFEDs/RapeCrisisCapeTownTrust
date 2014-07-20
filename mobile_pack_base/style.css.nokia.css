@@ -28,23 +28,6 @@ body.nokia_high div#header {
 body.nokia_high ul.breadcrumbs {
   margin:0px;
 }
-body.nokia_mid div#header, body.nokia_mid div#footer, body.nokia_mid h1, body.nokia_mid h2,
-body.nokia_high h1 {
-  background-image: url(img/radial.png);
-  background-position:top;
-  background-repeat:repeat-x;
-}
-body.nokia_high div#header,
-body.nokia_high div#menu {
-  background-image: url(img/radial.png);
-  background-position:0 -16px;
-  background-repeat:repeat-x;
-}
-body.nokia_high div#footer {
-  background-image: url(img/dahs.png);
-  background-position:top;
-  background-repeat:repeat-x;
-}
 #sidebar ul {
   list-style-type:none;
   margin-left:0;
@@ -58,13 +41,6 @@ body.nokia_low h1, body.nokia_mid h1 {
 }
 ul.list li, dl.list-accordion dt {
   white-space:nowrap;
-  background-image: url(img/radial.png);
-  background-position:top;
-  background-repeat:repeat-x;
-}
-ul.list li:hover, dl.list-accordion dt:hover {
-  background-image: url(img/dahs.png);
-  background-position:top;
 }
 body.nokia_high #sidebar {
   margin-left:10px;
@@ -79,9 +55,6 @@ body.nokia_high input.button {
   padding:0 1.5em;
   text-align:center;
   margin: 0.4em 0;
-  background-image: url(img/radial.png);
-  background-position:0 -16px;
-  background-repeat:repeat-x;
   height:40px;
   line-height:40px;
 }
@@ -125,17 +98,8 @@ body.nokia_mid h1, body.nokia_mid h2 {
 }
 
 /* VERY DARK */
-body.nokia_low h1, body.nokia_low h2, body.nokia_low div.header-box h3,
-body.nokia_mid h1, body.nokia_mid h2, body.nokia_mid div.header-box h3,
-body.nokia_high div#header, body.nokia_high div#footer {
-  background-color: #333333!important;
-}
 body div.header-box h3 {
   border-color: #333333;
-}
-a:link, body td.table-header,
-body h3, body h4, body h5, body form, body table, a:visited, a:hover, a:active {
-  color: #333333;
 }
 body.nokia_low div#header, body.nokia_low div#header a,
 body.nokia_mid div#header, body.nokia_mid div#header a,
@@ -159,21 +123,10 @@ body.nokia_mid h1, body.nokia_mid h2 {
 }
 
 /* LIGHT MID */
-body.nokia_high h1,
-body div#header,
-body.nokia_low div#footer, body.nokia_mid div#footer,
-ul.list li, dl.list-accordion dt {
-  background-color: #DDDFD9;
-}
 body div#footer,
 body h6, blockquote, blockquote p, body table, body td, body div.header-box p, body div.box p.box-text,
 body input[type='text'], body input[type='search'], body textarea {
   border-color: #DDDFD9;
-}
-
-/* VERY LIGHT */
-div#menu, body h6, body td.table-header, body table td.odd, body div.box p.box-text, body div.header-box p {
-  background-color: #F2F4ED;
 }
 
 /* LIGHTEST */

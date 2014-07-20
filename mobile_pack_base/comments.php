@@ -52,22 +52,6 @@ specific language governing permissions and limitations under the License.
 
 <?php
   function wpmp_theme_comment_list($comments) {
-    global $comment; //ouch
-    ?>
-    <ol class="commentlist">
-      <?php foreach ($comments as $comment) { ?>
-        <li>
-          <a name="#comment-<?php comment_ID($comment->comment_ID) ?>"></a>
-          <p><?php comment_author_link($comment->comment_ID) ?>:</p>
-          <?php if ($comment->comment_approved == '0') { ?>
-            <em><?php _e('Your comment is awaiting moderation.', 'wpmp'); ?></em>
-          <?php } ?>
-          <p class="metadata"><?php comment_date('F jS, Y') ?> at <?php comment_time() ?> <?php edit_comment_link('Edit','',''); ?></p>
-          <?php comment_text() ?>
-        </li>
-      <?php } ?>
-    </ol>
-  <?php
   }
 ?>
 
