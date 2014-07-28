@@ -1,0 +1,111 @@
+@import "vars.scss";
+
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+body{
+    position: relative;
+}
+
+nav {
+    background: #444;
+    padding: .5em 1em;
+    margin: -.5em;
+    ul,
+    li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        padding: .5em;
+    }
+    .menu > li > a{
+        font-size: 1.25em;
+        font-weight: 700;
+        border-bottom: 1px solid #777;
+    }
+    .sub-menu > li > a{
+        font-size: 1.125em;
+    }
+
+    .menu > li > ul li{
+        margin: 0 1em;
+    }
+
+    .current-menu-item > a,
+    a:hover,
+    a:focus,
+    a:active{
+        background: $colour_primary;
+        color: #fff;
+    }
+
+
+    // Collapse sub-menus 
+    .sub-menu {
+        display: none;
+    }
+    // Expand sub-menus of current menu item or ancestor
+    .current-menu-ancestor > .sub-menu,
+    .current-menu-item > .sub-menu{
+        display: block;   
+    }
+}
+
+// menu button
+a[href="#nav"] {
+    display: block;
+    padding: 1em;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+// back to top and close menu button
+#close-nav,
+#back-to-top {
+    float: right;
+    padding: 1em;
+    display: inline-block;
+    border: 0;
+    outline: none;
+}
+
+#close-nav {
+    display: none;
+}
+
+#nav:target{
+    #close-nav {
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 45em) {
+
+    #nav:target {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+
+
+        #back-to-top{
+            display: none;
+        }
+    }
+   
+} 
+
