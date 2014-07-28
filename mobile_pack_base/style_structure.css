@@ -5,27 +5,6 @@ Copyright (c) 2009 James Pearce & friends, portions mTLD Top Level Domain Limite
 This file is part of the WordPress Mobile Pack, licensed under the Apache License, Version 2.0. Consult server-side files for license.
 */
 
-/*
-IMAGES
-------
-*/
-
-#header {
-	background-image:url("img/shad.png");
-  background-repeat:repeat-x;
-	background-position:bottom;
-}
-#footer {
-	background-image:url("img/dahs.png");
-  background-repeat:repeat-x;
-	background-position:top;
-}
-#menu, #sidebar ul h2 {
-  background-image:url("img/high.png");
-  background-repeat:repeat-x;
-	background-position:top;
-}
-
 
 /*
 LAYOUT
@@ -173,11 +152,6 @@ div.dateicon, p.metadata {
 
 .entry {
 	padding:0.2em 0;
-}
-
-h1 {
-  border-bottom-width:1px;
-  border-bottom-style:solid;
 }
 
 div.post {

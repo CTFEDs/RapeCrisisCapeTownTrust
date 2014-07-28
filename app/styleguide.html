@@ -10,7 +10,6 @@
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/element_defaults.css">
         <link rel="stylesheet" href="styles/document_tree.css">
         <link rel="stylesheet" href="styles/headings.css">
         <link rel="stylesheet" href="styles/navigation.css">
@@ -18,13 +17,19 @@
         <link rel="stylesheet" href="styles/tables.css">
         <link rel="stylesheet" href="styles/images.css">
         <link rel="stylesheet" href="styles/quotes.css">
+        <link rel="stylesheet" href="styles/lists.css">
         <!-- endbuild -->
         <style>
-            section.sg {margin:2em 0; background-color:#eee; padding:0.5em;}
+            section.sg {margin:2em 0; background-color:#eee;}
             .sg_heading {margin-top:0;}
-            .sg_code {float:right; width:200px;}
+
             .sg_code code {display:block;}
-            .sg_example {margin:1em 225px 1em 0; padding:0.5em; border:#ccc solid 1px; background-color:#fff; overflow:hidden;}
+            .sg_example {margin:1em 0; background-color:#fff; overflow:hidden;}
+            @media (min-width:640px) {
+                section.sg {padding:0.5em;}
+                .sg_code {float:right; width:200px;}
+                .sg_example {margin-right:225px; padding:0.5em; border:#ccc solid 1px; }
+            }
         </style>
     </head>
     <body>
@@ -162,24 +167,47 @@
                     </dl>
                 </div>
             </div>
-            <div class="sg sg_code">Myth vs. Truth lists <code>&lt;dl class="list_mvt"&gt;</code> <a href="http://rapecrisis.org.za/rape-in-south-africa/myths-stereotypes-about-rape/">Example</a></div>
+            <div class="sg sg_code">Myth vs. Truth lists <code>&lt;ol class="list_mvt"&gt;</code> <a href="http://rapecrisis.org.za/rape-in-south-africa/myths-stereotypes-about-rape/">Example</a></div>
             <div class="sg_example">
                 <div class="entry-content">
-                    <ul class="list_mvt">
+                    <ol class="list_mvt">
                         <li>
-                            <h1 class="myth">Myth: Nessy exists!</h1>
+                            <h1 class="myth"><strong>Myth:</strong> Nessy exists!</h1>
                             <p class="myth_description">There have been a number of sightings of a strange beast in or around Loch Ness in Scotland.</p>
-                            <p class="truth">Truth: There is no scientific evidence that Nessy exists.</p>
+                            <p class="truth"><strong>Truth:</strong> There is no scientific evidence that Nessy exists.</p>
                         </li>
                         <li>
-                            <h1 class="myth">Myth: Aliens crash-landed in Roswell, New Mexico.</h1>
+                            <h1 class="myth"><strong>Myth:</strong> Aliens crash-landed in Roswell, New Mexico.</h1>
                             <p class="myth_description">According to a number of eye-witnesses, a flying saucer crash-landed outside of Roswell, New Mexico in 1947.</p>
-                            <p class="truth">Truth: There is no scientific evidence that Aliens or Flying Saucers exists.</p>
+                            <p class="truth"><strong>Truth:</strong> There is no scientific evidence that Aliens or Flying Saucers exist.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="sg sg_code">Profile lists <code>&lt;ul class="list_profiles"&gt;</code></div>
+            <div class="sg_example">
+                <div class="entry-content">
+                    <ul class="list_profiles">
+                        <li>
+                            <img src="http://placekitten.com/300/300" alt="Felix Le Chat">
+                            <h1>Felix Le Chat</h1>
+                            <p>Head Lay-about</p>
+                            <p><a href="mailto:felix@catz.biz">felix@catz.biz</a></p>
+                        </li>
+                        <li>
+                            <img src="http://placekitten.com/400/400" alt="Fluffy McFluffy">
+                            <h1>Fluffy McFluffy</h1>
+                            <p>Cat-nipper</p>
+                            <p><a href="mailto:fluffy@catz.biz">felix@catz.biz</a></p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="sg sg_code">Table <code>&lt;table&gt;</code></div>
+
+        </section>
+        <section class="sg sg_section">
+            <h1 class="sg sg_heading">Tables</h1>
+            <div class="sg sg_code">Default Table <code>&lt;table&gt;</code></div>
             <div class="sg_example">
                 <table>
                     <tr>
@@ -205,6 +233,9 @@
                     </tr>
                 </table>
             </div>
+        </section>
+        <section class="sg sg_section">
+            <h1 class="sg sg_heading">Images</h1>
             <div class="sg sg_code">Image <code>&lt;img&gt;</code></div>
             <div class="sg_example">
                 <img src="http://placekitten.com/800/300" alt="A wide cat.">
@@ -244,6 +275,9 @@
                     <figcaption>A tall cat.</figcaption>
                 </figure>
             </div>
+        </section>
+        <section class="sg sg_section">
+            <h1 class="sg sg_heading">Quotes</h1>
             <div class="sg sg_code">Blockquotes <code>&lt;blockquote&gt;</code> <a href="http://rapecrisis.org.za/information-for-survivors/secondary-trauma/">Example</a></div>
             <div class="sg_example">
                 <blockquote>

@@ -2,7 +2,7 @@
 /* CSS Document */
 /*
  * DEFAULT STYLES
- * 
+ *
  */
 body {
 	font-size: 100%;
@@ -14,8 +14,7 @@ body {
  * PAGE CONTAINERS
  * See documentation for details regarding use of #wrap and #content
  */
-#header {
-}
+
 #wrap {
 	width: 100%;
 	overflow: hidden;
@@ -28,10 +27,8 @@ body {
 	margin-right: 10px;
 }
 #footer {
-	background: #434343 url(../images/sprite-footer.png) repeat-x top;
-	padding: .7em 0em;
+	padding: 1em 0em;
 	clear: both;
-	height: 3em;
 }
 #footer.ft-large {
 	height: 9em;
@@ -60,40 +57,11 @@ strong {
 em {
 	font-style: italic;
 }
-/*
- * LINK STATES
- * 
- */
-a:link {
-	color:#003399;
-}
 
-a:visited {
-	color:#006600;
-}
-
-a:hover {
-	color:#FF9900;
-}
-
-a:active {
-	color:#990000;
-}
 /*
  * NATIVE LISTS
- * 
+ *
  */
-ul {
-	list-style: disc;
-	margin-left: 10px;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding-left: 10px;
-}
-ul li {
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-}
 
 ol {
 	list-style: decimal;
@@ -109,7 +77,7 @@ ol ol {
 
 /*
  * CLEAR
- * 
+ *
  */
 .stack {
 	clear:both;
@@ -121,93 +89,17 @@ ol ol {
 }
 /*
  * HEADERS
- * 
+ *
  */
- /*designed to be used at the very top of a page*/
-h1.top-aligned {
-	font-size: 1.7em;
-	padding-top: .3em;
-	padding-bottom: .5em;
-	padding-left: 10px;
-	padding-right: 10px;
+
+h1, h2, h3, h4, h5, h6 {
+	color: #7F3F9D;
 	font-weight: bold;
-	background: #F6F6F6 url(../images/img-h1-shadow.png) repeat-x bottom;
-	margin-top: 0em;
-	margin-bottom: .5em;
-	margin-left: -10px;
-	margin-right: -10px;
-}
-/*alternate H1*/
-h1 {
-	font-size: 1.7em;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-weight: bold;
-	background: #FFF url(../images/img-h1-gradient.png) repeat-x bottom;
-	border-top: 1px solid #D8D8D8;
-	margin-top: 0.2em;
-	margin-bottom: 0.3em;
-	margin-left: -10px;
-	margin-right: -10px;
-}
-
-h2 {
-	font-size: 1.5em;
-	margin-top: 0.2em;
-	margin-bottom: 0.3em;
-	clear: both;
-	border-bottom: 1px solid #D8D8D8;
-}
-
-
-h3 {
-	font-size: 1.3em;
-	color: #000077;
-	margin-top: 0.2em;
-	margin-bottom: 0.3em;
-	clear: both;
-}
-
-h4 {
-	font-size: 1.3em;
-	color: #219B00;
-	margin-top: 0.2em;
-	margin-bottom: 0.3em;
-	clear: both;
-}
-
-h5 {
-	font-size: 1.2em;
-	background-color: #F6F6F6;
-	border-bottom: 1px solid #D8D8D8;
-	border-top: 1px solid #D8D8D8;
-	padding-left: 10px;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	margin-top: 0.2em;
-	margin-bottom: 0.4em;
-	margin-left: -10px;
-	margin-right: -10px;
-	clear: both;
-}
-/* enables h5 to stack neatly above other items */
-h5.flush {
-	margin-bottom: 0;
-	border-bottom: none;
-}
-h6 {
-	font-size: 1.0em;
-	color: #333333;
-	margin-top: 0.2em;
-	margin-bottom: 0.4em;
-	border-bottom: 1px solid #D8D8D8;
-	clear: both;
+	padding: 0.5em 0;
 }
 /*
  * BLOCKQUOTE
- * 
+ *
  */
 blockquote {
 	margin-right: 10px;
@@ -223,40 +115,16 @@ blockquote p {
 }
 /*
  * END DEFAULT STYLES
- * 
+ *
  */
 /*
  * 1. BRANDING AND MARKETING
- * 
+ *
  */
-/*
- * BRANDING AREA
- * logo, tagline, background and hyperlink
- */
-#header div.branding {
-	height: 68px;
-	background: url(../images/img-branding-background.png) repeat-x top;
-	display: block;
-	width: 100%;
-	overflow: hidden;
-}
-#header div.branding img {
-	padding-top: 20px;
-	padding-left: 10px;
-}
-#header div.branding a {
-	width: 100%;
-	height: 68px;
-	display: block;
-	background-image: none;
-	padding-right: none;
-}
-#header div.branding p {
-	text-indent: -5000px;
-}
+
 /*
  * ADVERTISMENT CONTAINER
- * 
+ *
  */
 .advertisement {
 	padding:0;
@@ -280,7 +148,7 @@ blockquote p {
 }
 /*
  * 2. LISTS
- * 
+ *
  */
 /*
  * LIST WITH ICON
@@ -371,7 +239,7 @@ ul.list-graphical-inline li:hover {
 }
 /*
  * SIMPLE STYLED LIST BOX
- * 
+ *
  */
 /*note: line height adjusts height*/
 ul.list {
@@ -414,7 +282,7 @@ ul.list a:active {
 }
 /*
  * ACCORDION DEFINITION LIST
- * 
+ *
  */
 dl.list-accordion {
 	margin-left: -10px;
@@ -426,7 +294,7 @@ dl.list-accordion dt{
 	padding-left: 10px;
 	line-height: 40px;
 	height: 40px;
-	
+
 }
 /*definition container*/
 dl.list-accordion dd {
@@ -479,7 +347,7 @@ dl.list-accordion dd p {
 }
 /*
  * IMAGE GRID
- * 
+ *
  */
 ul.grid {
 	width: 100%;
@@ -498,11 +366,11 @@ ul.grid li img{
 
 /*
  * 3. NAVIGATION COMPONENTS
- * 
+ *
  */
 /*
  * BACK TO TOP
- * 
+ *
  */
 div.top {
 	font-size: .9em;
@@ -527,7 +395,7 @@ div.top a {
 }
 /*
  * HOME
- * 
+ *
  */
 div.home {
 	font-size: .9em;
@@ -550,29 +418,10 @@ div.home a {
 	display: block;
 }
 
-/*
- * BREADCRUMBS
- * 
- */
-ul.breadcrumbs {
-	margin-left: -10px;
-	margin-right: -10px;
-	padding-top: .5em;
-	padding-bottom: .5em;
-	padding-left: 10px;
-	padding-right: .5em;
-	font-size: 80%;
-	list-style-type: none;
-}
-
-ul.breadcrumbs li {
-	display: inline;
-	line-height: 1.5em;
-}
 
 /*
  * FOOTER OR ADMIN NAV
- * 
+ *
  */
 ul.nav-footer {
 	display: block;
@@ -609,7 +458,7 @@ ul.nav-footer a {
 
 /*
  * NAVIGATION BAR (ROUNDED CORNERS)
- * 
+ *
  */
 ul.nav-horizontal-rounded  {
 	padding:0;
@@ -674,7 +523,7 @@ ul.nav-horizontal-rounded li.last {
 
 /*
  * SIMPLE NAVIGATION BAR
- * 
+ *
  */
 ul.nav-horizontal-flat {
 	padding: 0;
@@ -773,11 +622,11 @@ a[href^="sms:"] {
 }
 /*
  * 5. BUTTONS
- * 
+ *
  */
 /*
  * STYLED BUTTON
- * 
+ *
  */
 /*change button width to auto for full-width button or customize width*/
 a.button-flat {
@@ -808,7 +657,7 @@ a.button-flat:hover {
 }
 /*
  * STYLED BUTTON (ROUNDED CORNERS)
- * 
+ *
  */
 ul.button-rounded {
 	margin: 0;
@@ -847,48 +696,48 @@ ul.button-rounded li a:hover {
 }
 /*
  * FORM BUTTON (ROUNDED CORNERS)
- * 
+ *
  */
-button.button-submit { 
-  border:0; 
-  cursor:pointer; 
-  font-weight:bold; 
+button.button-submit {
+  border:0;
+  cursor:pointer;
+  font-weight:bold;
   font-size: .95em;
   color: #333333;
-  padding:0 1.5em 0 0; 
+  padding:0 1.5em 0 0;
   text-align:center;
   margin: 0.4em 0;
 
 }
-button.button-submit span { 
-  position:relative; 
-  display:block; 
-  white-space:nowrap; 
-  padding:0 0 0 1.5em; 
+button.button-submit span {
+  position:relative;
+  display:block;
+  white-space:nowrap;
+  padding:0 0 0 1.5em;
 }
 
-button.button-submit { 
+button.button-submit {
   background:url(../images/sprite-button-rounded-right.png) no-repeat right top;
-  height:40px; 
+  height:40px;
   line-height:40px;
 }
-button.button-submit span { 
-  height:40px; 
+button.button-submit span {
+  height:40px;
   line-height:40px;
   background:url(../images/sprite-button-rounded-left.png) no-repeat left top;
 }
 button.button-submit:hover {
 	background:url(../images/sprite-button-rounded-right.png) no-repeat right bottom;
-	color:#fff; 
+	color:#fff;
 }
 button.button-submit:hover span {
-	background:url(../images/sprite-button-rounded-left.png) no-repeat left bottom; 
-	color:#fff; 
+	background:url(../images/sprite-button-rounded-left.png) no-repeat left bottom;
+	color:#fff;
 }
 
 /*
  * 6. FORMS
- * 
+ *
  */
 fieldset {
 	margin-top: 0;
@@ -917,31 +766,31 @@ form ul li {
 form label {
 	font-size: .9em;
 	margin-bottom: .5em;
-	margin-top: .5em;	
+	margin-top: .5em;
 }
-		
-input[type='text'] { 
+
+input[type='text'] {
 	border: 1px solid #D8D8D8;
 	background: #FFF url(../images/img-form-input-shadow.png) repeat-x top;
 	display: block;
 	padding: 0.2em;
-	width: 98%;		
+	width: 98%;
 	color: #333333;
 	margin-bottom: 1em;
 }
 
-textarea { 
+textarea {
 	border: 1px solid #D8D8D8;
 	background: #FFF url(../images/img-form-input-shadow.png) repeat-x top;
 	display: block;
 	padding: 0.2em;
 	color: #333333;
-	width: 98%;	
+	width: 98%;
 	line-height: normal;
 	margin-bottom: .7em;
 }
 
-form ul li input[type='radio'], form ul li input[type='checkbox'] { 
+form ul li input[type='radio'], form ul li input[type='checkbox'] {
 	margin:0.1em 0em;
 	padding: 0;
 }
@@ -969,7 +818,7 @@ input[type='button'] {
 
 /*
  * 7. TABLES
- * 
+ *
  */
 table {
 	border: 1px solid #D8D8D8;
@@ -1017,15 +866,15 @@ caption {
 
 tr:hover {
 		background: #82CB20 url(../images/sprite-table-hover.png) repeat-x top;
-		color: #FFF; 
+		color: #FFF;
 }
 /*
  * 8. FLEXIBLE CONTAINERS
- * 
+ *
  */
 /*
  * SIMPLE FLEXIBLE BOX
- * 
+ *
  */
 .box-flat {
 	background: #FBFBFB url(../images/img-box-flat.png) repeat-x left bottom;
@@ -1042,7 +891,7 @@ tr:hover {
 
 /*
  * FLEXIBLE BOX (ROUNDED CORNERS)
- * 
+ *
  */
 .box-rounded {
 	background: url(../images/img-box-bottom-left.png) no-repeat left bottom;
@@ -1112,7 +961,7 @@ div.stars-5 {
 }
 /*
  * \ SWITCH
- * 
+ *
  */
 ol.toggle-switch {
 	background: url(../images/sprite-toggle-switch.png) no-repeat left top;
@@ -1187,7 +1036,7 @@ ul.list-toggle ol.toggle-switch {
 
 /*
  * SLIDESHOW
- * 
+ *
  */
 .slideshow {
 	width: 100%;
@@ -1214,7 +1063,7 @@ ul.list-toggle ol.toggle-switch {
 	text-decoration: none;
 }
 .slideshow ul.controls {
-	width: 200px; 
+	width: 200px;
 	float:none;
 	margin: 0 auto 1em auto;
 }

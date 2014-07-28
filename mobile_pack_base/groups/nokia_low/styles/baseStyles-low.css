@@ -1,7 +1,7 @@
 /* CSS Document */
 /*
  * DEFAULT STYLES
- * 
+ *
  */
 body {
 	color: #333333;
@@ -17,18 +17,8 @@ body div#wrap {
 	padding: 0;
 }
 /*
- * HEADER
- * 
- */
-body div#header {
-	height: 36px;
-	background-color: #D8D8D8;
-	border-bottom: 4px solid #44AA33;
-	margin-bottom: .5em;
-}
-/*
  * FOOTER
- * 
+ *
  */
 body div#footer {
 	background-color: #F6F6F6;
@@ -55,9 +45,9 @@ body div#footer p {
 }
 /*
  * BASIC ELEMENTS
- * 
+ *
  */
- 
+
 /*body required as early browsers don't understand p by itself */
 body p {
 	margin-top: 0;
@@ -74,7 +64,7 @@ em {
 }
 /*
  * LINK STATES
- * 
+ *
  */
 a:link {
 	color:#003399;
@@ -92,70 +82,8 @@ a:active {
 }
 
 /*
- * HEADERS
- * 
- */
-body h1 {
-	padding-left: 10px;
-	padding-right: 10px;
-	color: white;
-	background-color: #0033CC;
-	border-top: 1px solid #367CE4;
-	border-bottom: 2px solid #001F80;
-	margin-top: .1em;
-	margin-bottom: .3em;
-	line-height: normal;
-	clear: both;
-}
-
-body h2 {
-	padding-left: 10px;
-	padding-right: 10px;
-	color: white;
-	background-color: #44AA33;
-	border-top: 1px solid #67DD30;
-	border-bottom: 2px solid #378C29;
-	margin-top: 0.1em;
-	margin-bottom: 0.3em;
-	line-height: normal;
-	clear: both;
-}
-
-body h3 {
-	padding-left: 10px;
-	color: #000077;
-	margin-top: 0.1em;
-	margin-bottom: 0.3em;
-}
-
-body h4 {
-	padding-left: 10px;
-	color: #CC0066;
-	margin-bottom: 0.3em;
-	margin-top: 0.1em;
-	font-weight: bold;
-}
-
-body h5 {
-	padding-left: 10px;
-	color: #333333;
-	margin-bottom: 0.2em;
-	margin-top: 0.1em;
-}
-
-body h6 {
-	background-color: #F6F6F6;
-	border-bottom: 1px solid #D8D8D8;
-	border-top: 1px solid #D8D8D8;
-	padding-left: 10px;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	margin-bottom: 0.1em;
-	margin-top: 0.1em;
-}
-/*
  * IMAGE WITH (OPTIONAL) CAPTION
- * 
+ *
  */
 body img.captioned-image {
 	margin: 0 0 0 2px;
@@ -169,7 +97,7 @@ body p.caption-image {
 }
 /*
  * BLOCKQUOTE
- * 
+ *
  */
 blockquote {
 	margin: .3em 1em .6em 1em;
@@ -184,7 +112,7 @@ blockquote p {
 }
 /*
  * LISTS
- * 
+ *
  */
 /* compensates for smaller Opera Mini margins */
 ol, ul {
@@ -203,7 +131,7 @@ body ul {
 }
 /*
  * BREADCRUMBS
- * 
+ *
  */
 body ul.breadcrumbs {
 	padding-top: 0;
@@ -222,7 +150,7 @@ body ul.breadcrumbs li {
 }
 /*
  * FORMS
- * 
+ *
  */
 body fieldset {
 	margin: 0;
@@ -238,20 +166,20 @@ body form label {
 	margin-bottom: .5em;
 	margin-top: .5em;
 }
-		
-body input[type='text'] { 
-	padding: 0.2em;	
+
+body input[type='text'] {
+	padding: 0.2em;
 	margin-bottom: .5em;
 	display: block;
 }
 
-body textarea { 
+body textarea {
 	padding: 0.2em;
 	margin-bottom: .7em;
 	display: block;
 }
 
-body form input[type='radio'], body form input[type='checkbox'] { 
+body form input[type='radio'], body form input[type='checkbox'] {
 	margin:0.1em 0em;
 	padding: 0;
 }
@@ -269,7 +197,7 @@ body input[type='button'] {
 
 /*
  * TABLES
- * 
+ *
  */
 body table {
 	border: 1px solid #D8D8D8;
@@ -313,7 +241,7 @@ body caption {
 
 /*
  * CONTAINER BOXES
- * 
+ *
  */
 body div.box p.box-text {
 	border: 1px solid #D8D8D8;
@@ -340,7 +268,7 @@ body div.header-box h3 {
 }
 /*
  * BACK TO TOP/HOME
- * 
+ *
  */
 p.top {
 	font-size: small;

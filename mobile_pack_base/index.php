@@ -117,30 +117,11 @@ if ($wpmp_not_found) {
         wpmp_theme_post_summary();
       }
     }
-    if(!is_single() && !is_page()) {
-      print '<p class="navigation">';
-      next_posts_link(__('Older', 'wpmp'));
-      print ' ';
-      previous_posts_link(__('Newer', 'wpmp'));
-      print '</p>';
-    }
-
   }
 }
 
 function wpmp_theme_post_single() {
   wpmp_theme_post(true);
-  print '<p class="metadata">'; previous_post_link(__('Previous post:', 'wpmp') . ' %link'); print '<br />'; next_post_link(__('Next post:', 'wpmp') . ' %link'); print '</p>';
-  if(!function_exists('wpmp_transcoder_is_last_page') || wpmp_transcoder_is_last_page()) {
-    global $post;
-    if (!$post->comment_status=='open') {
-      print '<p class="metadata">' . __('Comments are closed for this post.', 'wpmp') . '</p>';
-      print '</div>';
-    } else {
-      print '</div>';
-      comments_template();
-    }
-  }
 }
 
 function wpmp_theme_post_summary() {
@@ -154,23 +135,11 @@ function wpmp_theme_post($single = false) {
     $wpmp_summary_first=true;
   }
   $summary = get_option('wpmp_theme_post_summary');
-  $metadata = get_option('wpmp_theme_post_summary_metadata')=='true';
-  if ($single || $metadata) {
-    print '<p class="metadata">'. get_the_time('F jS, Y') . ' by ' . get_the_author() . '</p>';
-  }
   if ($single || ($summary!='none' && ($summary!='firstteaser' || $wpmp_summary_first))) {
     print '<div class="entry">';
     the_content(__('Read more', 'wpmp'));
     print '</div>';
     $wpmp_summary_first = false;
-  }
-  if ($single || $metadata) {
-    print '<p class="metadata">' . __('Posted in ', 'wpmp');
-    the_category(', ');
-    edit_post_link('Edit', ' | ', '');
-    print ' | ';
-    comments_popup_link('No comments', '1 comment', '% comments');
-    print '</p>';
   }
 }
 

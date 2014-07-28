@@ -25,6 +25,4 @@ CONDITIONS OF ANY KIND, either express or implied. See the License for the
 specific language governing permissions and limitations under the License.
 */
 
-?>
-
-<p><?php printf(__("Powered by the <a%s>WordPress Mobile Pack</a>", 'wpmp'), ' href="http://wordpress.org/extend/plugins/wordpress-mobile-pack/"');?> | <?php printf(__("Theme designed by <a%s>Forum Nokia</a>", 'wpmp'), ' href="http://forumnokia.mobi"'); ?></p>
+?

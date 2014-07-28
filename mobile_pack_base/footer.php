@@ -27,21 +27,32 @@ specific language governing permissions and limitations under the License.
 
 ?>
 
-      <div id="footer">
+      <div id="menu" class="nav-main">
         <?php
-          if (file_exists($wpmp_include = wpmp_theme_group_file('footer.php'))) {
-            include_once($wpmp_include);
+          global $wpmp_theme_menu_location;
+          if (function_exists('wp_nav_menu') && $wpmp_theme_menu_location) {
+            wp_nav_menu(array(
+              'theme_location'=>$wpmp_theme_menu_location,
+              'menu_class'=>'breadcrumbs'
+            ));
           } else {
             ?>
-              <ul class="mobi-social">
-                  <li><a href="http://www.facebook.com/rapecrisiscapetown" title="Facebook">Facebook</a></li>
-                  <li><a href="https://twitter.com/rapecrisis" title="Twitter">Twitter</a></li>
-                  <li><a href="http://mxitapp.com/rapecrisis/signup" title="Mxit">Mxit</a></li>
+              <ul class="breadcrumbs">
+                <li><a href="<?php bloginfo('url'); ?>/" title="<?php __('Home', 'wpmp'); ?>"><?php __('Home', 'wpmp'); ?></a></li>
+                <?php wp_list_pages('title_li=&depth=1'); ?>
+                <li><a href="#header">Top of page &uarr;</a></li>
               </ul>
-              <br />
             <?php
           }
         ?>
+      </div>
+
+      <div id="footer">
+        <ul class="mobi-social">
+            <li><a href="http://www.facebook.com/rapecrisiscapetown" title="Facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/rapecrisis" title="Twitter">Twitter</a></li>
+            <li><a href="http://mxitapp.com/rapecrisis/signup" title="Mxit">Mxit</a></li>
+        </ul>
         <?php wp_footer(); ?>
       </div>
     </div>
