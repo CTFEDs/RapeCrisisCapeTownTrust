@@ -1,31 +1,31 @@
-<?php 
+<?php
 /**
  * @subpackage ctfed-rapecrisis
  *
  * @author ctfeds
- * 
+ *
  * @link http://ctfeds.org/
- */ 
+ */
 
 get_header(); ?>
-    
+
     <div id="content" class="site-content" role="main">
-    <?php 
-    if ( have_posts() ) { 
+    <?php
+    if ( have_posts() ) {
 
         while ( have_posts() ) {
 
-            the_post(); 
-        
-            get_template_part( 'content' ); 
+            the_post();
+
+            get_template_part( 'content' );
 
         }
 
-    } else { 
+    } else {
 
-        get_template_part( 'content', 'none' ); 
+        get_template_part( 'content', 'none' );
 
-    } 
+    }
     ?>
     </div>
 
