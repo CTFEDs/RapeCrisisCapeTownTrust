@@ -26,6 +26,11 @@
     <div id="page" class="hfeed site">
 
         <header role="banner">
+            <h1 class="site-title">
+                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php echo bloginfo('name'); ?></a>
+            </h1>
+            <p class="tagline"><?php echo bloginfo('description'); ?></p>
+            <a href="#nav">Menu</a>
         </header>
 
         <div id="main" class="site-main">
