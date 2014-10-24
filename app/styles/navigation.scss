@@ -30,18 +30,6 @@ nav {
         display: block;
         padding: .5em;
     }
-    .menu > li > a{
-        font-size: 1.25em;
-        font-weight: 700;
-        border-bottom: 1px solid #777;
-    }
-    .sub-menu > li > a{
-        font-size: 1.125em;
-    }
-
-    .menu > li > ul li{
-        margin: 0 1em;
-    }
 
     .current-menu-item > a,
     a:hover,
@@ -51,16 +39,28 @@ nav {
         color: #fff;
     }
 
+}
+.menu > li > a{
+    font-size: 1.25em;
+    font-weight: 700;
+    border-bottom: 1px solid #777;
+}
+.sub-menu > li > a{
+    font-size: 1.125em;
+}
 
-    // Collapse sub-menus 
-    .sub-menu {
-        display: none;
-    }
-    // Expand sub-menus of current menu item or ancestor
-    .current-menu-ancestor > .sub-menu,
-    .current-menu-item > .sub-menu{
-        display: block;   
-    }
+.menu > li > ul li{
+    margin: 0 1em;
+}
+
+// Collapse sub-menus
+.sub-menu {
+    display: none;
+}
+// Expand sub-menus of current menu item or ancestor
+.current-menu-ancestor > .sub-menu,
+.current-menu-item > .sub-menu{
+    display: block;
 }
 
 // menu button
@@ -95,17 +95,90 @@ a[href="#nav"] {
 
 @media screen and (min-width: 45em) {
 
-    #nav:target {
+    #nav{
         position: absolute;
-        top: 0;
+        // The vertical offset from the top to allow space for the logo
+        top: 87px;
         left: 0;
+        right: 0;
         margin: 0;
-
 
         #back-to-top{
             display: none;
         }
     }
-   
-} 
+    a[href="#nav"],
+    a[href="#top"],
+    #nav:target #close-nav{
+        display: none;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+
+    // drop down menus
+    .menu > li {
+        float: left;
+        &>a{
+            padding: .75em 1em;
+            border-bottom: 0;
+        }
+    }
+    .menu > li + li {
+        border-left: 1px solid #777;
+    }
+    .menu > li > ul li{
+        margin: 0;
+        a{
+            padding: .75em 1em;
+        }
+    }
+
+    .current-menu-ancestor,
+    .current-menu-item{
+        &> .sub-menu{
+            display: none;
+        }
+    }
+
+    //hover
+    li:hover > .sub-menu{
+        position: absolute;
+        display: block;
+        padding: 0;
+        min-width: 15em;
+    }
+
+    // transparent borders to prevent loss of hover when close to the edge
+    .sub-menu {
+        margin: 0 -1em -1em;
+        border: 1em solid transparent;
+        border-top: 0;
+    }
+    .sub-menu .sub-menu{
+        margin: 0 -1em -1em 0;
+        border-left: 0;
+    }
+
+    .sub-menu .sub-menu{
+        z-index: 1;
+        left: 100%;
+        top: 0;
+    }
+    .sub-menu li {
+        position: relative;
+        background: #444;
+    }
+    .sub-menu li a{
+        border: 1px solid #777;
+    }
+    .sub-menu li + li a{
+        border-bottom: 0;
+    }
+    .sub-menu .sub-menu li {
+        margin-left: -1px;
+    }
+
+}
 
